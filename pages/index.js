@@ -44,8 +44,8 @@ export default function Home() {
             className={styles.logo}
             src="/power.png"
             alt="Next.js Logo"
-            width={180}
-            height={37}
+            width={320}
+            height={320}
             priority
           />
           <div className={styles.thirteen}>
