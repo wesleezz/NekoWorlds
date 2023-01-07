@@ -38,7 +38,7 @@ export default function Home() {
 
         <div className={styles.grid}>
           <a
-            href="https://nekocorp.gq"
+            href="https://nekocorp.gq/rules"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
