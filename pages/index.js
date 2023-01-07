@@ -43,20 +43,11 @@ export default function Home() {
           <Image
             className={styles.logo}
             src="/power.png"
-            alt="Next.js Logo"
+            alt="Power"
             width={320}
             height={320}
             priority
           />
-          <div className={styles.thirteen}>
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
-          </div>
         </div>
 
         <div className={styles.grid}>
