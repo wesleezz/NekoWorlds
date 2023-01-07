@@ -2,6 +2,6 @@
 
 #
 
-# Можна сказать сайт нк.. https://img.shields.io/github/deployments/wesleezz/nc/production?label=Vercel&logo=vercel&style=social
+# Можна сказать сайт нк..
 
  **[[Нажми на меня]](https://nekocorp.gq)**
