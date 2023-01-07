@@ -2,5 +2,5 @@
 
 #
 
-# NC web
- **[[click]](https://nekocorp.gq)** 
+# Можна сказать сайт нк..
+ **[[Нажми на меня]](https://nekocorp.gq)** 
