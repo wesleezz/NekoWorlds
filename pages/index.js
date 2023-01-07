@@ -53,10 +53,10 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Главная <span>-&gt;</span>
+              Правила <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Эта страница
+              Тут можно узнать правила
             </p>
           </a>
 
@@ -84,7 +84,7 @@ export default function Home() {
               Дискорд <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              У нас там весело
+              У нас там весел
             </p>
           </a>
 
