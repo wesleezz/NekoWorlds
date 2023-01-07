@@ -40,7 +40,6 @@ export default function Home() {
           <a
             href="https://nekocorp.gq/rules"
             className={styles.card}
-            target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
@@ -54,7 +53,6 @@ export default function Home() {
           <a
             href="https://nekocorp.gq/wiki"
             className={styles.card}
-            target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
@@ -68,7 +66,6 @@ export default function Home() {
           <a
             href="https://dsc.gg/nekocorp"
             className={styles.card}
-            target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
@@ -82,7 +79,6 @@ export default function Home() {
           <a
             href="https://map.nekocorp.gq:61128"
             className={styles.card}
-            target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
