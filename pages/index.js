@@ -50,36 +50,7 @@ export default function Home() {
             </p>
           </a>
 
-          <a
-            href="https://nekocorp.gq/wiki"
-            className={styles.card}
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Вики <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              В разработке!
-            </p>
-          </a>
 
-          <a
-            href="https://dsc.gg/nekocorp"
-            className={styles.card}
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Дискорд <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              У нас там весел
-            </p>
-          </a>
-
-          <a
-            href="https://map.nekocorp.gq:61128"
-            className={styles.card}
-            rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
               Карта <span>-&gt;</span>
