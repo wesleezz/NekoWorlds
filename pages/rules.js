@@ -1,4 +1,4 @@
 const Rules = () => {
- return <div>Your contents</div>
+ return <div>Правила</div>
  }
  export default Rules
