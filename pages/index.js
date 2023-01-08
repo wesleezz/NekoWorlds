@@ -23,6 +23,17 @@ export default function Home() {
           </div>
         </div>
 
+        <div className={styles.center}>
+          <Image
+            className={styles.logo}
+            src="/power.png"
+            alt="Power"
+            width={320}
+            height={320}
+            priority
+          />
+        </div>
+
         <div className={styles.grid}>
           <a
             href="https://nekocorp.gq/rules"
