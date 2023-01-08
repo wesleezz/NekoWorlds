@@ -30,5 +30,3 @@ const Rules = () => (
             height={320}
             priority
           />
-        </div>
-     <h1>Bebra</h1>
