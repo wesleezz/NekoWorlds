@@ -23,10 +23,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/closed-book.png"
+            src="/power.png"
             alt="Power"
             width={320}
             height={320}
