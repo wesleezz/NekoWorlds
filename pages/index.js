@@ -40,7 +40,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Правила <span>-&gt;</span>
+              <img src="/closed-book.png" alt="Your Name" /> Правила <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               Тут можно узнать правила
