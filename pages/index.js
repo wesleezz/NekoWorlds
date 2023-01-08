@@ -23,6 +23,7 @@ export default function Home() {
           </div>
         </div>
 
+        <div className={styles.center}>
           <Image
             className={styles.logo}
             src="/power.png"
