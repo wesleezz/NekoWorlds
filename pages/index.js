@@ -69,7 +69,7 @@ export default function Home() {
               Дискорд <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              У нас там весел
+              У нас там весело
             </p>
           </a>
 
