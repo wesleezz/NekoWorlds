@@ -30,6 +30,7 @@ export default function Home() {
             alt="Power"
             width={320}
             height={320}
+            priority
           />
         </div>
 
