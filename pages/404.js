@@ -8,7 +8,6 @@ import Link from 'next/link'
 
 export default function FourOhFour() {
   return <>
-         <div>className={styles.center}>
       404 - Страница не найдена</h1>
     <Link href="/">
       <a>
