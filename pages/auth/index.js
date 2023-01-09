@@ -1,15 +1,18 @@
 const path = require('path');
 const express = require('express');
 
+const Auth = () => {
+ export default Auth
+
 
 const app = express();
 
-app.use('',express.static(path.join(__dirname, 'public')));
+app.use('',express.static(path.join(__dirname
 
 app.get('/', (request, response) => {
-	return response.sendFile('index.html', { root: '.' });
+	return response.sendFile('index.js'
 }
 
 app.get('/auth/discord', (request, response) => {
-	return response.sendFile('dashboard.html', { root: '.' });
+	return response.sendFile('index.js'
 }
