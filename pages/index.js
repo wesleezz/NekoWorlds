@@ -28,8 +28,8 @@ export default function Home() {
             className={styles.logo}
             src="/power.png"
             alt="Power"
-            width={320}
-            height={320}
+            width={260}
+            height={288}
             priority
           />
         </div>
