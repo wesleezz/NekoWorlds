@@ -139,6 +139,13 @@
   .description a {
     padding: 1rem;
   }
+  
+  .description p,
+  .description div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
 
   .description p {
     align-items: center;
