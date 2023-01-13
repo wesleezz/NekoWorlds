@@ -54,7 +54,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Вики <span>-&gt;</span>
+            <Image src="/maple_leaf_3d.png" height={23} width={23} alt="maple_leaf_3d" priority /> Вики <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               В разработке!
@@ -67,10 +67,10 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              О Сервере <span>-&gt;</span>
+            <Image src="/discord_3d.png" height={23} width={23} alt="discord_3d" priority /> Дискорд <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Там вы узнаете историю сервера
+              Всё глвное находиться тут
             </p>
           </a>
 
