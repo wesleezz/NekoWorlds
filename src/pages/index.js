@@ -67,7 +67,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-            <Image src="/maple_leaf_3d.png" height={23} width={23} alt="maple_leaf_3d" priority /> Вики <span>-&gt;</span>
+            <Image src="/bookmark_tabs_3d.png" height={23} width={23} alt="bookmark_tabs_3d" priority /> Вики <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               В разработке!
