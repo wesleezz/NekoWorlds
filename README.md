@@ -2,5 +2,6 @@
 
 #
 
-# Можна сказать сайт нк..
- **[[Нажми на меня]](https://nekocorp.gq)** 
+# Сайт нк
+[[Нажми на меня]](https://nekocorp.gq)
+Сделал [[Визя]](https://t.me/wesleezz) проект сделан на [[Next.js]](https://nextjs.org)
