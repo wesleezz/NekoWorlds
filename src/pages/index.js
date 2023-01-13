@@ -62,19 +62,6 @@ export default function Home() {
           </a>
 
           <a
-            href="https://dsc.gg/nekocorp"
-            className={styles.card}
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-            <Image src="/discord_3d.png" height={23} width={23} alt="discord_3d" priority /> Дискорд <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              Всё глвное находиться тут
-            </p>
-          </a>
-
-          <a
             href="https://map.nekocorp.gq:61128"
             className={styles.card}
             rel="noopener noreferrer"
