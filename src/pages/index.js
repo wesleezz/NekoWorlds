@@ -35,6 +35,19 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
+        <a
+            href="https://dsc.gg/nekocorp"
+            className={styles.card}
+            rel="noopener noreferrer"
+          >
+            <h2 className={inter.className}>
+            <Image src="/house_3d.png" height={23} width={23} alt="house_3d" priority /> Главная <span>-&gt;</span>
+            </h2>
+            <p className={inter.className}>
+              Эта страница
+            </p>
+          </a>
+
           <a
             href="https://nekocorp.gq/rules"
             className={styles.card}
