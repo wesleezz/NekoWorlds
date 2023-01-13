@@ -41,7 +41,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              <Image src="/closed-book.png" height={23} width={23} alt="Closed-book" priority /> Правила <span>-&gt;</span>
+              <Image src="/open_book_3d.png" height={23} width={23} alt="open_book_3d" priority /> Правила <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               Тут можно узнать правила
@@ -67,10 +67,10 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Дискорд <span>-&gt;</span>
+              О Сервере <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              У нас там весело
+              Там вы узнаете историю сервера
             </p>
           </a>
 
@@ -80,7 +80,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              Карта <span>-&gt;</span>
+            <Image src="/world_map_3d.png" height={23} width={23} alt="world_map_3d" priority /> Карта <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               Просто вебкарта сервера
