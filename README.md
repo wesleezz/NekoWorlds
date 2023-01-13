@@ -3,5 +3,5 @@
 #
 
 # Сайт нк
-[[Нажми на меня]](https://nekocorp.gq)
-Сделал [[Визя]](https://t.me/wesleezz) проект сделан на [[Next.js]](https://nextjs.org)
+[[Жми, чтобы посмотреть сайт]](https://nekocorp.gq)
+Сделал [Визя](https://t.me/wesleezz) проект сделан на [Next.js](https://nextjs.org)
