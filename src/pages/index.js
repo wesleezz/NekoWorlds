@@ -62,7 +62,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://nekocorp.gq/wiki"
+            href="https://docs.nekocorp.gq"
             className={styles.card}
             rel="noopener noreferrer"
           >
