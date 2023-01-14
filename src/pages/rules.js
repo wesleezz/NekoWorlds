@@ -5,6 +5,6 @@ import styles from '../styles/index.module.scss'
 
 const inter = Inter({ subsets: ['latin'] })
 const Rules = () => {
-    return <div>Правила</div>
+    return <h2 className={inter.className}> Правила <span>-&gt;</span></h2>
     }
     export default Rules
