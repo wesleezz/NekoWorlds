@@ -8,7 +8,6 @@ const Rules = () => {
     return <div className={styles.center}>
              <h2 className={inter.className}> Правила </h2></div>
     }
-    export default Rules
     import { Fragment } from 'react'
 import { Disclosure, Menu, Transition } from '@headlessui/react'
 import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
