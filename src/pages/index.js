@@ -15,6 +15,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/power-1.png" />
       </Head>
+
+      <Navigation></Navigation>
+      
     <main className={styles.main}>
           <div className={styles.description}>
           <div>
