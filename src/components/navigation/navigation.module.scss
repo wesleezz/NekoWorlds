@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Manrope:500');
+
 .navigation {
     margin-bottom: 32px;
     display: flex;
@@ -20,4 +22,11 @@
           color: var(--TC_7);
         }
     }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10%
+
 }
