@@ -19,7 +19,7 @@ export default function Navigation() {
                 <a>О сайте</a>
             </Link>
             
-            <a href="https://github.com/plasmoapp/minecraft-status" target="_blank">GitHub</a>
+            <a href="https://github.com/plasmoapp/minecraft-status" target="_blank" rel="noreferrer">GitHub</a>
         </div>
     )
 }
