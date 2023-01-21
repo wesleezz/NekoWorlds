@@ -22,7 +22,7 @@ export default function Navigation() {
             <Link href='/rules/'>
                 <a>Правила</a>
             </Link>
-                        <a href="https://github.com/plasmoapp/minecraft-status" target="_blank" rel="noreferrer">GitHub</a>
+                        <a href="https://dsc.gg/nekocorp" target="_blank" rel="noreferrer">GitHub</a>
         </div>
     )
 }
