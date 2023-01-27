@@ -24,7 +24,7 @@ export default function Navigation() {
             <Link href='/rules/'>
                 <a>Правила</a>
             </Link>
-                        <Link href="https://dsc.gg/nekocorp" target="_blank" rel="noreferrer">Discord</Link>
+                        <a href="https://dsc.gg/nekocorp" target="_blank" rel="noreferrer">Discord</a>
         </div>
     )
 }
