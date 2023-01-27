@@ -37,8 +37,8 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-        <Link
-            href="/"
+        <a
+            href="https://nekocorp.gq"
             className={styles.card}
             rel="noopener noreferrer"
           >
@@ -48,10 +48,10 @@ export default function Home() {
             <p className={inter.className}>
               Эта страница
             </p>
-          </Link>
+          </a>
 
-          <Link
-            href="/rules"
+          <a
+            href="https://nekocorp.gq/rules"
             className={styles.card}
             rel="noopener noreferrer"
           >
@@ -61,7 +61,7 @@ export default function Home() {
             <p className={inter.className}>
               Тут можно узнать правила
             </p>
-          </Link>
+          </a>
 
           <a
             href="https://docs.nekocorp.gq"
