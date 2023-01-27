@@ -3,7 +3,7 @@ import styles from './navigation.module.scss'
 import Link from 'next/link'
 import Image from "next/image"
 
-const manrope = Manrope({ subsets: ['latin'] })
+const inter = Inter({ subsets: ['latin'] })
 
 export default function Navigation() {
     return (
