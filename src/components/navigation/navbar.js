@@ -36,7 +36,6 @@ const Navbar = () => {
               }}
               key={menu.text}
             >
-              <NavItem active={activeIdx === idx} {...menu} />
             </div>
           ))}
         </div>
