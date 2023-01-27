@@ -3,6 +3,8 @@ import styles from './navigation.module.scss'
 import Link from 'next/link'
 import Image from "next/image"
 
+const inter = Manrope({ subsets: ['latin'] })
+
 export default function Navigation() {
     return (
         <div className = {styles.navigation}>
