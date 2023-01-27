@@ -1,7 +1,8 @@
 import React from "react"
+import Image from "next/image"
+import { Inter } from '@next/font/google'
 import styles from './navigation.module.scss'
 import Link from 'next/link'
-import Image from "next/image"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -10,7 +11,7 @@ export default function Navigation() {
         <div className = {styles.navigation}>
             
             <Link href='/'>
-                <a><image src="/power-1.png" width="48" height="39"></image></a>
+                <a><Image src="/power-1.png" width="48" height="39"></Image></a>
             </Link>
 
             <Link href='/'>
