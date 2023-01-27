@@ -4,8 +4,6 @@ import { Inter } from '@next/font/google'
 import styles from './navigation.module.scss'
 import Link from 'next/link'
 
-const inter = Inter({ subsets: ['latin'] })
-
 export default function Navigation() {
     return (
         <div className = {styles.navigation}>
