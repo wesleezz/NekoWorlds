@@ -32,8 +32,10 @@ export default function Page() {
         <h1>404</h1>
       </div>
       </div>
+      <div className={styles.center}>
       <div className={inter.className}>
         <h3>Мы искали везде но не смогли найти эту старницу</h3>
+      </div>
       </div>
       <Link
         href="/">Назад
