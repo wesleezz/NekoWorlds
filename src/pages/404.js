@@ -20,8 +20,8 @@ export default function Page() {
       <div className={styles.center}>
         <Image
           className={styles.logo}
-          src="/magnifying_glass_tiled_left_3d.png"
-          alt="magnifying_glass_tiled_left_3d"
+          src="/magnifying_glass_tilted_left_3d.png"
+          alt="magnifying_glass_tilted_left_3d"
           width={50}
           height={50}
           priority
@@ -34,7 +34,7 @@ export default function Page() {
       </div>
       <div className={styles.center}>
       <div className={inter.className}>
-        <h3>Мы искали везде но не смогли найти эту старницу</h3>
+        <h5>Мы искали везде но не смогли найти эту старницу</h5>
       </div>
       </div>
       <Link
