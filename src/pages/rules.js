@@ -14,13 +14,15 @@ export default function Page() {
         <title>NekoWorlds › Правила</title>
         <meta name="description" content="Ванильный сервер" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/power-1.png" />
+        <link rel="icon" href="/power.png" />
       </Head>
+      <section className={styles.headingMd}>
       <div className={styles.center}>
       <div className={manrope.className}>
         <h1>Правила</h1>
       </div>
       </div>
+      </section>
     </>
  )
 }
