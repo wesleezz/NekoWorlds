@@ -3,9 +3,10 @@
 
 .center {
   display: flex;
-  align-items: center;
   justify-content: center;
-  height: 100;
+  align-items: center;
+  position: relative;
+  padding: 4rem 0;
 }
 
 .wrapper {
