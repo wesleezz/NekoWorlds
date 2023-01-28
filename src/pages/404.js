@@ -18,28 +18,10 @@ export default function Page() {
         <link rel="icon" href="/power-1.png" />
       </Head>
       <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/magnifying_glass_tilted_left_3d.png"
-          alt="magnifying_glass_tilted_left_3d"
-          width={50}
-          height={50}
-          priority
-        />
-      </div>
-      <div className={styles.center}>
       <div className={manrope.className}>
         <h1>404</h1>
       </div>
       </div>
-      <div className={styles.center}>
-      <div className={inter.className}>
-        <h5>Мы искали везде но не смогли найти эту старницу</h5>
-      </div>
-      </div>
-      <Link
-        href="/">Назад
-      </Link>
     </>
  )
 }
