@@ -2,9 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=Inter:500');
 
 .center {
-  padding: 70px 0;
-  border: 3px solid green;
+  line-height: 200px;
+  height: 200px;
   text-align: center;
+}
+
+.center p {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .wrapper {
