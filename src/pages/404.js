@@ -15,16 +15,14 @@ export default function Page() {
         <title>Cтраница не найдена</title>
         <meta name="description" content="Ванильный сервер" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/power-1.png" />
+        <link rel="icon" href="/power.png" />
       </Head>
-      <section className={styles.headingMd}>
       <div className={styles.center}>
       <div className={manrope.className}>
         <h1>404</h1>
         <p>мы ничего не нашли</p>
       </div>
       </div>
-      </section>
     </>
  )
 }
