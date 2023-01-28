@@ -17,7 +17,7 @@ export default function Page() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/power-1.png" />
       </Head>
-      <section className={utilStyles.headingMd}>
+      <section className={styles.headingMd}>
       <div className={styles.center}>
       <div className={manrope.className}>
         <h1>404</h1>
