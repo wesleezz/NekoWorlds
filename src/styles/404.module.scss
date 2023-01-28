@@ -2,11 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Inter:500');
 
 .center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  padding: 4rem 0;
+  text-align: center;
+  border: 3px solid green;
 }
 
 .wrapper {
