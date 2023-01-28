@@ -20,6 +20,7 @@ export default function Page() {
       <div className={styles.center}>
       <div className={manrope.className}>
         <h1>404</h1>
+        <p>мы ничего не нашли</p>
       </div>
       </div>
     </>
