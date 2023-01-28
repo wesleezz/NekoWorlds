@@ -16,8 +16,10 @@ export default function Page() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/power-1.png" />
       </Head>
+      <div className={styles.center}>
       <div className={manrope.className}>
         <h1>Правила</h1>
+      </div>
       </div>
     </>
  )
