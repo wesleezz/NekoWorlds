@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Manrope:500');
 @import url('https://fonts.googleapis.com/css?family=Inter:500');
 
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
+.table {
+  display: table;
+}
+
+.table p {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.grid {
+  display: grid;
+  place-items: center;
 }
 
 .wrapper {
