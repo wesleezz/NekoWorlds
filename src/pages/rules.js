@@ -5,8 +5,18 @@ import styles from '../styles/index.module.scss'
 
 const inter = Inter({ subsets: ['latin'] })
 
-const Rules = () => {
-    return <div className={styles.center}>
-             <h2 className={inter.className}> Правила </h2></div>
-    }
-    export default Rules
+export default function Page() {
+ return (
+    <>
+      <Head>
+        <title>NekoWorlds › Правила</title>
+        <meta name="description" content="Ванильный сервер" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/power-1.png" />
+      </Head>
+      <div className={styles.center}>
+        <h1>Правила</h1>
+      </div>
+    </>
+)
+}
