@@ -1,17 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Manrope:500');
 @import url('https://fonts.googleapis.com/css?family=Inter:500');
 
-.center {
-  line-height: 200px;
-  height: 200px;
-  text-align: center;
-}
+* {
 
-.center p {
-  line-height: 1.5;
-  display: inline-block;
-  vertical-align: middle;
-}
+  text-align: center;
+  
+  }
+  
+  body {
+  
+  text-align: center;
+  
+  }
+  
+  body {
+    margin: auto;
+    width: 640px; 
+    padding: 50px;
+  }
 
 .wrapper {
     display: block;
