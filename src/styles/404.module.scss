@@ -2,7 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Inter:500');
 
 .center {
-  line-height: 1.5;
+  line-height: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.center p {
+  line-height: 0.2;
   display: inline-block;
   vertical-align: middle;
 }
