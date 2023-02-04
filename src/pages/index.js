@@ -26,7 +26,7 @@ export default function Home() {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/power.png"
+            src="/NekoWorlds.png"
             alt="Power"
             width={260}
             height={288}
