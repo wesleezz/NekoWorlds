@@ -7,4 +7,4 @@
 
 Сделал [Визя](https://t.me/wesleezz) проект сделан на [Next.js](https://nextjs.org) он будет развиваться
 
- ![](https://i.ibb.co/wwWCHbG/Neko-Worlds.png)
+[ ![](https://i.ibb.co/wwWCHbG/Neko-Worlds.png)](https://i.ibb.co/WynykJq/nekoworldsmini.png)
