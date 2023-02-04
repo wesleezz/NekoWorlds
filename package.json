@@ -22,7 +22,8 @@
     "react-dom": "18.2.0",
     "react-markdown": "^8.0.5",
     "react-wrap-balancer": "^0.3.0",
-    "sass": "^1.57.1"
+    "sass": "^1.57.1",
+    "yarn": "^1.22.19"
   },
   "devDependencies": {
     "qwik-speak": "^0.5.0",
