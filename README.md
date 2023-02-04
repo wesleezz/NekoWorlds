@@ -1,4 +1,4 @@
-![](https://imgur.com/Qoj7dbO.png) ![](https://i.ibb.co/WynykJq/nekoworldsmini.png)
+![](https://i.ibb.co/WynykJq/nekoworldsmini.png)
 
 #
 
