@@ -26,10 +26,10 @@ export default function Home() {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/NekoWorlds.png"
+            src="/power.png"
             alt="Power"
-            width={500}
-            height={500}
+            width={260}
+            height={288}
             priority
           />
         </div>
