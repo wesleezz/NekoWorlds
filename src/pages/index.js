@@ -28,8 +28,8 @@ export default function Home() {
             className={styles.logo}
             src="/NekoWorlds.png"
             alt="Power"
-            width={260}
-            height={288}
+            width={500}
+            height={500}
             priority
           />
         </div>
