@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'htm', 'html'],
+  pageExtensions: ['ts', 'tsx', 'js', 'jsx'],
   reactStrictMode: true,
 }
 
