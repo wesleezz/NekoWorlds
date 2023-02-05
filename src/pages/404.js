@@ -8,7 +8,7 @@ import styles from '../styles/rgb.module.scss'
 const inter = Inter({ subsets: ['latin'] })
 const manrope = Manrope({ subsets: ['latin'] })
 
-export default function Page() {
+export default function PageNotFound() {
   return (
     <>
       <Head>
