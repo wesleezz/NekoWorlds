@@ -16,7 +16,7 @@ export default function Page() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/power.png" />
       </Head>
-      <iframe title="NekoWorlds › Карта" src="https://maps.nekocorp.gq:61128"></iframe>
+      <iframe title="NekoWorlds › Карта" src="https://maps.nekocorp.gq:61128" width="2000"></iframe>
     </>
   )
 }
