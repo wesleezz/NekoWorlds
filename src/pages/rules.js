@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import { Manrope } from '@next/font/google'
-import Navigation from '../Navigation/navigation'
+import Navigation from '..components/Navigation/navigation'
 import styles from '../styles/Rules.module.scss'
 
 const inter = Inter({ subsets: ['latin'] })
