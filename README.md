@@ -6,4 +6,4 @@
 
 # Информация
 
-Сделал [Визя](https://t.me/wesleezz) для своего приватного сервера NekoWorlds это веб-сайт сделанный на фреймворке [Next.js](https://nextjs.org) на сайте используються мендеры пакетов [npm](https://www.npmjs.com/) и [yarn](https://classic.yarnpkg.com)
+Сделал [Визя](https://t.me/wesleezz) для своего приватного сервера NekoWorlds это веб-сайт сделанный на фреймворке [Next.js](https://nextjs.org)
