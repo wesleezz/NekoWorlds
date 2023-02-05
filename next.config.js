@@ -23,6 +23,11 @@ module.exports = {
         destination: 'https://wesleezz.netlify.app',
         permanent: true,
       },
+      {
+        source: '/bebra',
+        destination: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        permanent: true,
+      },
     ]
   },
 }
