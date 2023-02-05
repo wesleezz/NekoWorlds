@@ -1,7 +1,7 @@
 import React from "react"
 import Image from "next/image"
 import { Inter } from '@next/font/google'
-import styles from './navigation.module.scss'
+import styles from '../styles/navigation.module.scss'
 import Link from 'next/link'
 
 export default function Navigation() {
