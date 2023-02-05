@@ -16,25 +16,6 @@ export default function Page() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/power.png" />
       </Head>
-      <div className = {styles.navigation}>
-            
-            <Link href='/'>
-                <a><Image src="/power-1.png" width="48" height="39"></Image></a>
-            </Link>
-
-            <Link href='/'>
-                <a>Главная</a>
-            </Link>
-
-            <Link href='/about/'>
-                <a>О сервере</a>
-            </Link>
-            
-            <Link href='/rules/'>
-                <a>Правила</a>
-            </Link>
-                        <a href="https://dsc.gg/nekocorp" target="_blank" rel="noreferrer">Discord</a>
-      </div>
       <div className={styles.center}>
       <div className={manrope.className}>
         <h1>Правила</h1>
