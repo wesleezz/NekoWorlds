@@ -12,7 +12,12 @@
 # Использованные сервисы
 
 Всё использованные сервисы для создания этого сайта: <br>
-[SCSS](https://sass-lang.com), [Tailwind CSS](https://tailwindcss.com), [Vercel](vercel.com), [Netlify](netlify.com), [Firebase](https://firebase.google.com), [npm](npmjs.com), [yarn](classic.yarnpkg.com), [Github Pages](pages.github.com)
+[Sass](https://sass-lang.com), 
+[Tailwind CSS](https://tailwindcss.com), 
+[Vercel](vercel.com), [Netlify](netlify.com), 
+[Firebase](https://firebase.google.com), 
+[npm](https://npmjs.com), 
+[yarn](https://classic.yarnpkg.com), 
 
 # Контакты
 
