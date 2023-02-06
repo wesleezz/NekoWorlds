@@ -7,3 +7,10 @@
 # Информация
 
 Сделал [Визя](https://t.me/wesleezz) для своего приватного сервера NekoWorlds это веб-сайт сделанный на фреймворке [Next.js](https://nextjs.org)
+
+# Контакты
+
+Создатель сервера - Wesleezz69
+[Discord](https://discord.com/users/580079922614108185)
+[Telegram](https://t.me/wesleezz)
+[Сайт](https://wesleezz.netlify.app)
