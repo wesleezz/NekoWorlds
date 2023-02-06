@@ -10,7 +10,7 @@
 
 # Контакты
 
-Создатель сервера - Wesleezz69
-[Discord](https://discord.com/users/580079922614108185)
-[Telegram](https://t.me/wesleezz)
+**Wesleezz69**<br>
+[Discord](https://discord.com/users/580079922614108185)<br>
+[Telegram](https://t.me/wesleezz)<br>
 [Сайт](https://wesleezz.netlify.app)
