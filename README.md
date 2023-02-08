@@ -1,8 +1,27 @@
-![](https://i.ibb.co/WynykJq/nekoworldsmini.png)
+<div align="center">
+	<p>
+		<a href="https://nekocorp.gq"><img src="https://i.ibb.co/BzV3rmv/2.png" width="546" alt="NekoWorlds" /></a>
+	<p>
+</div>
 
-#
+# Информация
 
-# Можна сказать сайт нк
- [[Жми, чтобы посмотреть сайт]](https://nekocorp.gq)
+Это веб-сайт приватного сервера **NekoWorlds** <br>
+сделано на Next.js <br>
 
-Сделал [Визя](https://t.me/wesleezz) проект сделан на [Next.js](https://nextjs.org) он будет развиваться
+# Использованные сервисы
+
+Всё использованные сервисы для создания этого сайта: <br>
+[Sass](https://sass-lang.com), 
+[Tailwind CSS](https://tailwindcss.com), 
+[Vercel](vercel.com), [Netlify](netlify.com), 
+[Firebase](https://firebase.google.com), 
+[npm](https://npmjs.com), 
+[yarn](https://classic.yarnpkg.com), 
+
+# Контакты
+
+**Wesleezz69**<br>
+[Discord](https://discord.com/users/580079922614108185)<br>
+[Telegram](https://t.me/wesleezz)<br>
+[Сайт](https://wesleezz.netlify.app)
