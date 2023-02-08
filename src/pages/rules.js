@@ -18,7 +18,7 @@ export default function Page() {
       </Head>
       <div className={styles.center}>
       <div className={manrope.className}>
-        <h1><Image href="/info.svg" /> Правила сервера</h1>
+        <h1>Правила сервера</h1>
       </div>
       </div>
       <div className={styles.center}>
