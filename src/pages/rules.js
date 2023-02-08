@@ -24,7 +24,7 @@ export default function Page() {
       <div className={styles.center}>
       <div className={inter.className}>
         <h2>Общие правила</h2>
-          <ul>
+          <ol>
             <li>
               1.1 Старайтесь никого не оскорблять и не унижать без ведомой на то причины.
             </li>
@@ -43,7 +43,7 @@ export default function Page() {
             <li>
               1.6 Запрещено использование багов ботов или дискорда в корыстных целях.
             </li>
-          </ul>
+          </ol>
       </div>
       </div>
     </>
