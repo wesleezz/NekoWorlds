@@ -16,6 +16,10 @@ export default function Page() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/power.png" />
       </Head>
+      <div className={styles.grid} class={manrope.className}>
+      <Image href="info.svg" />
+      <div>Рекомендация</div>
+      </div>
       <div className={styles.center}>
       <div className={manrope.className}>
         <h1>Правила сервера</h1>
