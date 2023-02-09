@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 import { Inter } from '@next/font/google'
 import { Manrope } from '@next/font/google'
 import styles from '../styles/Home.module.scss'
@@ -37,7 +38,7 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-        <a
+        <link
             href="/"
             className={styles.card}
             rel="noopener noreferrer"
@@ -48,9 +49,9 @@ export default function Home() {
             <p className={inter.className}>
               Эта страница
             </p>
-          </a>
+          </link>
 
-          <a
+          <link
             href="/rules"
             className={styles.card}
             rel="noopener noreferrer"
@@ -61,9 +62,9 @@ export default function Home() {
             <p className={inter.className}>
               Тут можно узнать правила
             </p>
-          </a>
+          </link>
 
-          <a
+          <link
             href="https://docs.nekocorp.gq"
             className={styles.card}
             rel="noopener noreferrer"
@@ -74,9 +75,9 @@ export default function Home() {
             <p className={inter.className}>
               В разработке!
             </p>
-          </a>
+          </link>
 
-          <a
+          <link
             href="/map"
             className={styles.card}
             rel="noopener noreferrer"
@@ -87,7 +88,7 @@ export default function Home() {
             <p className={inter.className}>
               Просто вебкарта сервера
             </p>
-          </a>
+          </link>
         </div>
       </main>
     </>
