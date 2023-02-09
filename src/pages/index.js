@@ -38,7 +38,7 @@ export default function Home() {
 
         <div className={styles.grid}>
         <a
-            href="https://nekocorp.gq"
+            href="/"
             className={styles.card}
             rel="noopener noreferrer"
           >
@@ -51,7 +51,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://nekocorp.gq/rules"
+            href="/rules"
             className={styles.card}
             rel="noopener noreferrer"
           >
@@ -77,7 +77,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://map.nekocorp.gq:61128"
+            href="/map"
             className={styles.card}
             rel="noopener noreferrer"
           >
