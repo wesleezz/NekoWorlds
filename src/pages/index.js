@@ -38,8 +38,8 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-        <link
-            href="/index/"
+        <Link
+            href="/"
             className={styles.card}
             rel="noopener noreferrer"
           >
@@ -49,10 +49,10 @@ export default function Home() {
             <p className={inter.className}>
               Эта страница
             </p>
-          </link>
+          </Link>
 
-          <link
-            href="/rules/"
+          <Link
+            href="/rules"
             className={styles.card}
             rel="noopener noreferrer"
           >
@@ -62,10 +62,10 @@ export default function Home() {
             <p className={inter.className}>
               Тут можно узнать правила
             </p>
-          </link>
+          </Link>
 
-          <link
-            href="/wiki/"
+          <Link
+            href="wiki"
             className={styles.card}
             rel="noopener noreferrer"
           >
@@ -75,10 +75,10 @@ export default function Home() {
             <p className={inter.className}>
               В разработке!
             </p>
-          </link>
+          </Link>
 
-          <link
-            href="/map/"
+          <Link
+            href="/map"
             className={styles.card}
             rel="noopener noreferrer"
           >
@@ -88,7 +88,7 @@ export default function Home() {
             <p className={inter.className}>
               Просто вебкарта сервера
             </p>
-          </link>
+          </Link>
         </div>
       </main>
     </>
