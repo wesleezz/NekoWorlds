@@ -39,7 +39,7 @@ export default function Home() {
 
         <div className={styles.grid}>
         <link
-            href="/index"
+            href="/index/"
             className={styles.card}
             rel="noopener noreferrer"
           >
@@ -52,7 +52,7 @@ export default function Home() {
           </link>
 
           <link
-            href="/rules"
+            href="/rules/"
             className={styles.card}
             rel="noopener noreferrer"
           >
@@ -65,7 +65,7 @@ export default function Home() {
           </link>
 
           <link
-            href="https://docs.nekocorp.gq"
+            href="/wiki/"
             className={styles.card}
             rel="noopener noreferrer"
           >
@@ -78,7 +78,7 @@ export default function Home() {
           </link>
 
           <link
-            href="/map"
+            href="/map/"
             className={styles.card}
             rel="noopener noreferrer"
           >
