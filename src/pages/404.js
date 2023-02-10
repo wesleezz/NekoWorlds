@@ -17,12 +17,14 @@ export default function PageNotFound() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/power.png" />
       </Head>
+    <main className={styles.main}>
       <div className={styles.center}>
       <div className={manrope.className}>
-        <h1>404</h1>
-        <p>мы ничего не нашли</p>
-      </div>
-      </div>
+        <Image src="/magnifying_glass_tilted_left_3d.png" width="50" height="50" />
+          <h1>404</h1>
+          </div>
+        </div>
+      </main>
     </>
  )
 }

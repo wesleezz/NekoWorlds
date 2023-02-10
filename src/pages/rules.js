@@ -17,6 +17,7 @@ export default function Page() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/power.png" />
       </Head>
+    <main className={styles.main}>
       <div className={styles.center}>
       <div className={manrope.className}>
         <h1>Правила сервера</h1>
@@ -45,8 +46,9 @@ export default function Page() {
               Запрещено использование багов ботов или дискорда в корыстных целях.
             </li>
           </ol>
-      </div>
-      </div>
+          </div>
+        </div>
+      </main>
     </>
   )
 }
