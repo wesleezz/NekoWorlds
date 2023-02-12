@@ -25,8 +25,6 @@ export default function Home() {
             </a>
           </div>
         </div>
-      
-<MyDropdown></MyDropdown>
 
         <div className={styles.center}>
           <Image
@@ -39,17 +37,24 @@ export default function Home() {
           />
         </div>
 
+        <div className={styles.center}>
+        <div className={inter.className}>
+          <h1>Технические работы</h1>
+          <h5>а пока что можете посмотреть</h5>
+        </div>
+        </div>
+
         <div className={styles.grid}>
         <Link
-            href="/"
+            href="https://nekocorp.gq/ds"
             className={styles.card}
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-            <Image src="/house_3d.png" height={23} width={23} alt="house_3d" priority /> Главная <span>-&gt;</span>
+            <Image src="/discord_3d.png" height={23} width={23} alt="house_3d" priority /> Дискорд <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Эта страница
+              Дискорд
             </p>
           </Link>
 
