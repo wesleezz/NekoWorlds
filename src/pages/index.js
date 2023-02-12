@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { Inter } from '@next/font/google'
 import { Manrope } from '@next/font/google'
 import styles from '../styles/Home.module.scss'
+import MyDropdown from '../components/menu'
 
 const inter = Inter({ subsets: ['latin'] })
 const manrope = Manrope({ subsets: ['latin'] })
@@ -25,6 +26,8 @@ export default function Home() {
           </div>
         </div>
       
+<MyDropdown></MyDropdown>
+
         <div className={styles.center}>
           <Image
             className={styles.logo}
