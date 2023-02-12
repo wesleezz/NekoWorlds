@@ -29,10 +29,10 @@ export default function Home() {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/power.png"
-            alt="Power"
-            width={260}
-            height={288}
+            src="/nw.png"
+            alt="nw"
+            width={500}
+            height={350}
             priority
           />
         </div>
