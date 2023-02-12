@@ -8,7 +8,10 @@ export default function Example() {
       <Menu as="div" className="relative inline-block text-left">
         <div>
           <Menu.Button className="inline-flex w-full justify-center rounded-md bg-black bg-opacity-20 px-4 py-2 text-sm font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
-            Options
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+  <path fill-rule="evenodd" d="M3 6.75A.75.75 0 013.75 6h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 6.75zM3 12a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75A.75.75 0 013 12zm0 5.25a.75.75 0 01.75-.75h16.5a.75.75 0 010 1.5H3.75a.75.75 0 01-.75-.75z" clip-rule="evenodd" />
+</svg>
+
             <ChevronDownIcon
               className="ml-2 -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100"
               aria-hidden="true"
@@ -34,17 +37,17 @@ export default function Example() {
                     } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                   >
                     {active ? (
-                      <EditActiveIcon
+                      <AuthActiveIcon
                         className="mr-2 h-5 w-5"
                         aria-hidden="true"
                       />
                     ) : (
-                      <EditInactiveIcon
+                      <AuthInactiveIcon
                         className="mr-2 h-5 w-5"
                         aria-hidden="true"
                       />
                     )}
-                    Edit
+                    Авторизация
                   </button>
                 )}
               </Menu.Item>
@@ -56,63 +59,17 @@ export default function Example() {
                     } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                   >
                     {active ? (
-                      <DuplicateActiveIcon
+                      <ProfileActiveIcon
                         className="mr-2 h-5 w-5"
                         aria-hidden="true"
                       />
                     ) : (
-                      <DuplicateInactiveIcon
+                      <ProfileInactiveIcon
                         className="mr-2 h-5 w-5"
                         aria-hidden="true"
                       />
                     )}
-                    Duplicate
-                  </button>
-                )}
-              </Menu.Item>
-            </div>
-            <div className="px-1 py-1">
-              <Menu.Item>
-                {({ active }) => (
-                  <button
-                    className={`${
-                      active ? 'bg-violet-500 text-white' : 'text-gray-900'
-                    } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                  >
-                    {active ? (
-                      <ArchiveActiveIcon
-                        className="mr-2 h-5 w-5"
-                        aria-hidden="true"
-                      />
-                    ) : (
-                      <ArchiveInactiveIcon
-                        className="mr-2 h-5 w-5"
-                        aria-hidden="true"
-                      />
-                    )}
-                    Archive
-                  </button>
-                )}
-              </Menu.Item>
-              <Menu.Item>
-                {({ active }) => (
-                  <button
-                    className={`${
-                      active ? 'bg-violet-500 text-white' : 'text-gray-900'
-                    } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
-                  >
-                    {active ? (
-                      <MoveActiveIcon
-                        className="mr-2 h-5 w-5"
-                        aria-hidden="true"
-                      />
-                    ) : (
-                      <MoveInactiveIcon
-                        className="mr-2 h-5 w-5"
-                        aria-hidden="true"
-                      />
-                    )}
-                    Move
+                    Профиль
                   </button>
                 )}
               </Menu.Item>
@@ -126,17 +83,39 @@ export default function Example() {
                     } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
                   >
                     {active ? (
-                      <DeleteActiveIcon
-                        className="mr-2 h-5 w-5 text-violet-400"
+                      <BuyActiveIcon
+                        className="mr-2 h-5 w-5"
                         aria-hidden="true"
                       />
                     ) : (
-                      <DeleteInactiveIcon
-                        className="mr-2 h-5 w-5 text-violet-400"
+                      <BuyInactiveIcon
+                        className="mr-2 h-5 w-5"
                         aria-hidden="true"
                       />
                     )}
-                    Delete
+                    Купить проходку
+                  </button>
+                )}
+              </Menu.Item>
+              <Menu.Item>
+                {({ active }) => (
+                  <button
+                    className={`${
+                      active ? 'bg-violet-500 text-white' : 'text-gray-900'
+                    } group flex w-full items-center rounded-md px-2 py-2 text-sm`}
+                  >
+                    {active ? (
+                      <LogoutActiveIcon
+                        className="mr-2 h-5 w-5"
+                        aria-hidden="true"
+                      />
+                    ) : (
+                      <LogoutInactiveIcon
+                        className="mr-2 h-5 w-5"
+                        aria-hidden="true"
+                      />
+                    )}
+                    Выйти
                   </button>
                 )}
               </Menu.Item>
