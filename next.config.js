@@ -10,7 +10,7 @@ module.exports = {
     return [
       {
         source: '/ds',
-        destination: 'https://dsc.gg/nekocorp',
+        destination: 'https://discord.com/invite/RAJ4uJ4KZU',
         permanent: true,
       },
       {
@@ -19,13 +19,13 @@ module.exports = {
         permanent: true,
       },
       {
-        source: '/wz',
-        destination: 'https://wesleezz.netlify.app',
+        source: '/tt',
+        destination: 'https://www.tiktok.com/@nekocorp.gq',
         permanent: true,
       },
       {
-        source: '/bebra',
-        destination: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+        source: '/tw',
+        destination: 'https://twitch.tv/wesleezz',
         permanent: true,
       },
     ]
