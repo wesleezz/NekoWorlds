@@ -4,7 +4,6 @@ import Link from 'next/link'
 import { Inter } from '@next/font/google'
 import { Manrope } from '@next/font/google'
 import styles from '../styles/Home.module.scss'
-import MyDropdown from '../components/menu'
 
 const inter = Inter({ subsets: ['latin'] })
 const manrope = Manrope({ subsets: ['latin'] })
@@ -29,32 +28,25 @@ export default function Home() {
         <div className={styles.center}>
           <Image
             className={styles.logo}
-            src="/nw.png"
-            alt="nw"
-            width={500}
-            height={350}
+            src="/power.png"
+            alt="power"
+            width={360}
+            height={380}
             priority
           />
         </div>
 
-        <div className={styles.center}>
-        <div className={inter.className}>
-          <h1>Технические работы</h1>
-          <h5>а пока что можете посмотреть</h5>
-        </div>
-        </div>
-
         <div className={styles.grid}>
         <Link
-            href="https://nekocorp.gq/ds"
+            href="/"
             className={styles.card}
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-            <Image src="/discord_3d.png" height={23} width={23} alt="house_3d" priority /> Дискорд <span>-&gt;</span>
+              <Image src="/house_3d.png" height={23} width={23} alt="house_3d" priority /> Главная <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Дискорд
+              Эта страница
             </p>
           </Link>
 
@@ -77,7 +69,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-            <Image src="/bookmark_tabs_3d.png" height={23} width={23} alt="bookmark_tabs_3d" priority /> Вики <span>-&gt;</span>
+              <Image src="/bookmark_tabs_3d.png" height={23} width={23} alt="bookmark_tabs_3d" priority /> Вики <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               В разработке!
@@ -90,7 +82,7 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-            <Image src="/world_map_3d.png" height={23} width={23} alt="world_map_3d" priority /> Карта <span>-&gt;</span>
+              <Image src="/world_map_3d.png" height={23} width={23} alt="world_map_3d" priority /> Карта <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
               Просто вебкарта сервера

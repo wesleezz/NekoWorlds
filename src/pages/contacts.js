@@ -23,6 +23,10 @@ export default function Page() {
             <h1>Контакты</h1>
         </div>
         </div>
+        <div className={styles.grid}>
+        <div className={inter.className}>
+        </div>
+        </div>
       </main>
     </>
   )
