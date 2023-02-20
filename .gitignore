@@ -29,9 +29,13 @@ yarn-error.log*
 .env*.local
 /src/server/.env
 /src/components/.env
+.env
 
 # vercel
 .vercel
 
 # jetbrains
 /.idea/
+
+# docker
+docker.compose.yml
