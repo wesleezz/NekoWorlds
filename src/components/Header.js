@@ -1,28 +1,20 @@
-import Link from 'next/link';
-import styles from '../styles/Header.module.scss';
+import Image from 'next/image'
+import Link from 'next/link'
+import { Inter } from '@next/font/google'
+import { Manrope } from '@next/font/google'
+import styles from '../styles/Home.module.scss'
 
-const Header = () => {
+const inter = Inter({ subsets: ['latin'] })
+const manrope = Manrope({ subsets: ['latin'] })
+
+export default function Header() {
   return (
-    <header className={styles.header}>
-      <nav className={styles.navbar}>
-        <ul className={styles.navbar__list}>
-          <li className={styles.navbar__item}>
-            <Link href="/">
-              Home
-            </Link>
-          </li>
-          <li className={styles.navbar__item}>
-            <Link href="/about">
-              About
-            </Link>
-          </li>
-          <li className={styles.navbar__item}>
-            <Link href="/contact">
-              Contact
-            </Link>
-          </li>
-        </ul>
-      </nav>
-    </header>
-  );
-};
+    <ul className={styles.menubar}>
+    <Link href="/">Главная</Link>
+    <Link href="/rules">Правила</Link>
+    <Link href="/wiki">Вики</Link>
+    <Link href="/map">Карта</Link>
+    <Link href="/dashboard">Авторизация</Link>
+  </ul>
+  )
+}

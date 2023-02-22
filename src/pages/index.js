@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { Inter } from '@next/font/google'
 import { Manrope } from '@next/font/google'
 import styles from '../styles/Home.module.scss'
+import Header from '../components/Header'
 
 const inter = Inter({ subsets: ['latin'] })
 const manrope = Manrope({ subsets: ['latin'] })
@@ -14,16 +15,12 @@ export default function Home() {
       <Head>
         <title>NekoWorlds</title>
         <meta name="description" content="Ванильный сервер" />
+        
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/power.png" />
       </Head>
     <main className={styles.main}>
-          <div className={styles.description}>
-          <div>
-            <a>
-            </a>
-          </div>
-        </div>
+      <Header></Header>
 
         <div className={styles.center}>
           <Image

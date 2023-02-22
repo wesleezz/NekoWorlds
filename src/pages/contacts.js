@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { Inter } from '@next/font/google'
 import { Manrope } from '@next/font/google'
 import styles from '../styles/Contacts.module.scss'
+import Header from '../components/Header'
 
 const inter = Inter({ subsets: ['latin'] })
 const manrope = Manrope({ subsets: ['latin'] })
@@ -18,6 +19,7 @@ export default function Page() {
         <link rel="icon" href="/power.png" />
       </Head>
     <main className={styles.main}>
+      <Header></Header>
         <div className={styles.center}>
         <div className={manrope.className}>
             <h1>Контакты</h1>

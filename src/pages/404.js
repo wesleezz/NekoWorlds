@@ -3,7 +3,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Inter } from '@next/font/google'
 import { Manrope } from '@next/font/google'
-import styles from '../styles/404.module.scss'
+import styles from '../styles/Home.module.scss'
+import Header from '../components/Header'
 
 const inter = Inter({ subsets: ['latin'] })
 const manrope = Manrope({ subsets: ['latin'] })
@@ -18,6 +19,7 @@ export default function PageNotFound() {
         <link rel="icon" href="/power.png" />
       </Head>
     <main className={styles.main}>
+      <Header></Header>
       <div className={styles.center}>
       <div className={manrope.className}>
         <Image src="/magnifying_glass_tilted_left_3d.png" width="50" height="50" />
