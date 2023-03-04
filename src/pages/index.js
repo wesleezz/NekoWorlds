@@ -15,12 +15,11 @@ export default function Home() {
       <Head>
         <title>NekoWorlds</title>
         <meta name="description" content="Ванильный сервер" />
-        
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/power.png" />
       </Head>
-    <main className={styles.main}>
-      <Header></Header>
+      <main className={styles.main}>
+        <Header></Header>
 
         <div className={styles.center}>
           <Image
@@ -34,7 +33,7 @@ export default function Home() {
         </div>
 
         <div className={styles.grid}>
-        <Link
+          <Link
             href="/"
             className={styles.card}
             rel="noopener noreferrer"
@@ -61,7 +60,7 @@ export default function Home() {
           </Link>
 
           <Link
-            href="wiki"
+            href="/wiki"
             className={styles.card}
             rel="noopener noreferrer"
           >
