@@ -12,7 +12,7 @@
 # Использованные сервисы
 
 Всё использованные сервисы для создания этого сайта: <br>
-![](https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Supabase-Dark.svg)
+[![My Skills](https://skillicons.dev/icons?i=nextjs,js,html,prisma,tailwind,scss,github,vscode,idea)](https://skillicons.dev)
 
 # Контакты
 
