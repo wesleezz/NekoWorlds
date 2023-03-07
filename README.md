@@ -12,7 +12,7 @@
 # Использованные сервисы
 
 Всё использованные сервисы для создания этого сайта: <br>
-[![My Skills](https://skillicons.dev/icons?i=nextjs,js,html,prisma,tailwind,scss,github,vscode,idea)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=vercel,js,html,prisma,tailwind,scss,github,vscode,idea)](https://skillicons.dev)
 
 # Контакты
 
