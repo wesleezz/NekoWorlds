@@ -12,12 +12,7 @@
 # Использованные сервисы
 
 Всё использованные сервисы для создания этого сайта: <br>
-[Sass](https://sass-lang.com), 
-[Tailwind CSS](https://tailwindcss.com), 
-[Vercel](vercel.com), [Netlify](netlify.com), 
-[Firebase](https://firebase.google.com), 
-[npm](https://npmjs.com), 
-[yarn](https://classic.yarnpkg.com), 
+[](https://raw.githubusercontent.com/tandpfun/skill-icons/main/icons/Supabase-Dark.svg), 
 
 # Контакты
 
