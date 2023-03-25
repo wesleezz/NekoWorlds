@@ -12,12 +12,7 @@
 # Использованные сервисы
 
 Всё использованные сервисы для создания этого сайта: <br>
-[Sass](https://sass-lang.com), 
-[Tailwind CSS](https://tailwindcss.com), 
-[Vercel](vercel.com), [Netlify](netlify.com), 
-[Firebase](https://firebase.google.com), 
-[npm](https://npmjs.com), 
-[yarn](https://classic.yarnpkg.com), 
+[![My Skills](https://skillicons.dev/icons?i=vercel,netlify,js,html,scss,prisma,discord,tailwind,github,vscode,idea)](https://skillicons.dev)
 
 # Контакты
 
