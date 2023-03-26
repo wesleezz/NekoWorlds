@@ -1,16 +1,16 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import { Inter } from '@next/font/google'
-import { Manrope } from '@next/font/google'
+import { Inter, Manrope } from '@next/font';
+import { useTranslation } from 'next-i18next';
 import styles from '../styles/Home.module.scss'
 import Header from '../components/Header'
 
-const inter = Inter({ subsets: ['latin'] })
-const manrope = Manrope({ subsets: ['latin'] })
-const { t } = useTranslation('common');
-
 export default function Home() {
+  const { t } = useTranslation('common');
+  const inter = Inter({ subsets: ['latin'] });
+  const manrope = Manrope({ subsets: ['latin'] });
+
   return (
     <>
       <Head>
