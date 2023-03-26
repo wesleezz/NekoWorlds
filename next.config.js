@@ -1,5 +1,3 @@
-const nextTranslate = require('next-translate');
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['ts', 'tsx', 'js', 'jsx'],
@@ -7,9 +5,6 @@ const nextConfig = {
 }
 
 module.exports = nextConfig
-module.exports = nextTranslate({
-  reactStrictMode: true,
-});
 module.exports = {
   async redirects() {
     return [
@@ -35,12 +30,4 @@ module.exports = {
       },
     ]
   },
-  i18n: {
-    localeDetection: false,
-    defaultLocale: 'ru',
-    locales: ['ru', 'uk'],
-    pages: {
-      '*': ['common'],
-    }
-  }
 }

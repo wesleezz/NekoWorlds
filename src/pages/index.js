@@ -2,7 +2,6 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Inter, Manrope } from '@next/font/google';
-import useTranslation from 'next-translate/useTranslation';;
 import styles from '../styles/Home.module.scss'
 import Header from '../components/Header'
 
@@ -10,7 +9,6 @@ const inter = Inter({ subsets: ['latin'] });
 const manrope = Manrope({ subsets: ['latin'] });
 
 export default function Home() {
-  const { t } = useTranslation('common');
   return (
     <>
       <Head>
@@ -40,10 +38,10 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              <Image src="/house_3d.png" height={23} width={23} alt="house_3d" priority /> {t('Home-title')} <span>-&gt;</span>
+              <Image src="/house_3d.png" height={23} width={23} alt="house_3d" priority /> Главная <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              {t('Home-description')}
+              Эта страница
             </p>
           </Link>
 
@@ -53,10 +51,10 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              <Image src="/open_book_3d.png" height={23} width={23} alt="open_book_3d" priority /> {t('Rules-title')} <span>-&gt;</span>
+              <Image src="/open_book_3d.png" height={23} width={23} alt="open_book_3d" priority /> Правила <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              {t('Rules-description')}
+              Тут можна узнать правила
             </p>
           </Link>
 
@@ -66,10 +64,10 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              <Image src="/bookmark_tabs_3d.png" height={23} width={23} alt="bookmark_tabs_3d" priority /> {t('Wiki-title')} <span>-&gt;</span>
+              <Image src="/bookmark_tabs_3d.png" height={23} width={23} alt="bookmark_tabs_3d" priority /> Вики <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              {t('Wiki-description')}
+              В разработке!
             </p>
           </Link>
 
@@ -79,10 +77,10 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              <Image src="/world_map_3d.png" height={23} width={23} alt="world_map_3d" priority /> {t('Map-title')} <span>-&gt;</span>
+              <Image src="/world_map_3d.png" height={23} width={23} alt="world_map_3d" priority /> Карта <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              {t('Map-description')}
+              Просто веб-карта сервера
             </p>
           </Link>
         </div>
