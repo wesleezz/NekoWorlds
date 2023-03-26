@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { Inter, Manrope } from '@next/font';
+import { Inter, Manrope } from 'next/font/google';
 import { useTranslation } from 'next-i18next';
 import styles from '../styles/Home.module.scss'
 
