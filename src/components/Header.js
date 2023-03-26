@@ -3,10 +3,11 @@ import { Inter, Manrope } from '@next/font/google';
 import { useTranslation } from 'next-i18next';
 import styles from '../styles/Home.module.scss'
 
+const inter = Inter({ subsets: ['latin'] });
+const manrope = Manrope({ subsets: ['latin'] });
+
 export default function Header() {
   const { t } = useTranslation('common');
-  const inter = Inter({ subsets: ['latin'] });
-  const manrope = Manrope({ subsets: ['latin'] });
 
   return (
     <ul className={styles.menubar}>

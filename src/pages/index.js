@@ -6,10 +6,11 @@ import { useTranslation } from 'next-i18next';
 import styles from '../styles/Home.module.scss'
 import Header from '../components/Header'
 
+const inter = Inter({ subsets: ['latin'] });
+const manrope = Manrope({ subsets: ['latin'] });
+
 export default function Home() {
   const { t } = useTranslation('common');
-  const inter = Inter({ subsets: ['latin'] });
-  const manrope = Manrope({ subsets: ['latin'] });
 
   return (
     <>
