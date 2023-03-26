@@ -8,6 +8,7 @@ import Header from '../components/Header'
 
 const inter = Inter({ subsets: ['latin'] })
 const manrope = Manrope({ subsets: ['latin'] })
+const { t } = useTranslation('common');
 
 export default function Home() {
   return (
@@ -39,10 +40,10 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              <Image src="/house_3d.png" height={23} width={23} alt="house_3d" priority /> Главная <span>-&gt;</span>
+              <Image src="/house_3d.png" height={23} width={23} alt="house_3d" priority /> {t('Home-title')} <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Эта страница
+              {t('Home-description')}
             </p>
           </Link>
 
@@ -52,10 +53,10 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              <Image src="/open_book_3d.png" height={23} width={23} alt="open_book_3d" priority /> Правила <span>-&gt;</span>
+              <Image src="/open_book_3d.png" height={23} width={23} alt="open_book_3d" priority /> {t('Rules-title')} <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Тут можно узнать правила
+              {t('Rules-description')}
             </p>
           </Link>
 
@@ -65,10 +66,10 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              <Image src="/bookmark_tabs_3d.png" height={23} width={23} alt="bookmark_tabs_3d" priority /> Вики <span>-&gt;</span>
+              <Image src="/bookmark_tabs_3d.png" height={23} width={23} alt="bookmark_tabs_3d" priority /> {t('Wiki-title')} <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              В разработке!
+              {t('Wiki-description')}
             </p>
           </Link>
 
@@ -78,10 +79,10 @@ export default function Home() {
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
-              <Image src="/world_map_3d.png" height={23} width={23} alt="world_map_3d" priority /> Карта <span>-&gt;</span>
+              <Image src="/world_map_3d.png" height={23} width={23} alt="world_map_3d" priority /> {t('Map-title')} <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              Просто вебкарта сервера
+              {t('Map-description')}
             </p>
           </Link>
         </div>

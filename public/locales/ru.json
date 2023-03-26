@@ -1,0 +1,18 @@
+{
+  "Home-title": "Главная",
+  "Home-description": "Эта страница",
+  "Rules-title": "Правила",
+  "Rules-description": "Тут можна узнать правила",
+  "Wiki-title": "Вики",
+  "Wiki-description": "В разработке!",
+  "Map-title": "Карта",
+  "Map-description": "Просто веб-карта сервера",
+
+  "Home": "Главная",
+  "Rules": "Правила",
+  "Wiki": "Вики",
+  "Map": "Карта",
+  "Auth": "Авторизация",
+
+  "Vanilla": "Ванільний сервер"
+}
