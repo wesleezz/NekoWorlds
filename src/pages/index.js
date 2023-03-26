@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Inter, Manrope } from '@next/font/google';
-import { useTranslation } from 'next-i18next';
+import useTranslation from 'next-translate/useTranslation';;
 import styles from '../styles/Home.module.scss'
 import Header from '../components/Header'
 
@@ -11,7 +11,6 @@ const manrope = Manrope({ subsets: ['latin'] });
 
 export default function Home() {
   const { t } = useTranslation('common');
-
   return (
     <>
       <Head>

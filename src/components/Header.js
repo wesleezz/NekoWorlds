@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Inter, Manrope } from '@next/font/google';
-import { useTranslation } from 'next-i18next';
+import useTranslation from 'next-translate/useTranslation';
 import styles from '../styles/Home.module.scss'
 
 const inter = Inter({ subsets: ['latin'] });
@@ -8,7 +8,6 @@ const manrope = Manrope({ subsets: ['latin'] });
 
 export default function Header() {
   const { t } = useTranslation('common');
-
   return (
     <ul className={styles.menubar}>
       <Link href="/">{t('Home')}</Link>

@@ -31,6 +31,7 @@
     "next-auth": "^4.19.2",
     "next-i18next": "^13.2.2",
     "next-intl": "^2.10.4",
+    "next-translate": "^2.0.3",
     "nextra": "^2.2.3",
     "nextra-theme-docs": "^2.2.3",
     "react": "18.2.0",
