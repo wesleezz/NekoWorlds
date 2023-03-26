@@ -1,5 +1,4 @@
-import Image from 'next/image'
-import Link from 'next/Link'
+import Link from 'next/link'
 import { Inter, Manrope } from '@next/font';
 import { useTranslation } from 'next-i18next';
 import styles from '../styles/Home.module.scss'
