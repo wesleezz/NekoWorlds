@@ -28,6 +28,11 @@ module.exports = {
         destination: 'https://twitch.tv/wesleezz',
         permanent: true,
       },
+      {
+        source: '/end',
+        destination: 'https://youtu.be/dQw4w9WgXcQ',
+        permanent: true,
+      },
     ]
   },
 }
