@@ -1,5 +1,4 @@
 import { SessionProvider } from "next-auth/react";
-import { appWithTranslation } from 'next-i18next';
 import styles from "../styles/globals.scss";
 
 function MyApp({ Component, pageProps }) {
@@ -10,4 +9,4 @@ function MyApp({ Component, pageProps }) {
   );
 }
 
-export default appWithTranslation(MyApp);
+export default MyApp;
