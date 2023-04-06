@@ -19,6 +19,7 @@
     "@next/mdx": "^13.1.2",
     "@prisma/client": "^4.12.0",
     "@supabase/supabase-js": "^2.8.0",
+    "autoprefixer": "^10.4.14",
     "bootstrap": "^5.2.3",
     "cross-env": "^7.0.3",
     "discord.js": "^14.7.1",
@@ -35,6 +36,7 @@
     "next-translate": "^2.0.3",
     "nextra": "^2.2.3",
     "nextra-theme-docs": "^2.2.3",
+    "postcss": "^8.4.21",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-i18next": "^12.2.0",
@@ -42,16 +44,14 @@
     "react-wrap-balancer": "^0.3.0",
     "sass": "^1.57.1",
     "supabase": "^1.46.5",
+    "tailwindcss": "^3.3.1",
     "yarn": "^1.22.19"
   },
   "devDependencies": {
     "@types/react": "^18.0.29",
     "@types/react-dom": "^18.0.11",
-    "autoprefixer": "^10.4.14",
-    "postcss": "^8.4.21",
     "prisma": "^4.12.0",
     "qwik-speak": "^0.5.0",
-    "tailwindcss": "^3.2.7",
     "typescript": "^5.0.2"
   }
 }

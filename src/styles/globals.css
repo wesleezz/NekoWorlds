@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Manrope:500");
 @import url("https://fonts.googleapis.com/css?family=Inter:500");
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 * > * {
   font-family: "Inter", sans-serif;
 }
@@ -93,13 +97,7 @@ body {
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #18181b;
 }
 
 a {
