@@ -23,7 +23,7 @@ export default function PageNotFound() {
         <div className="grid h-full items-center justify-center">
           <div className="grid place-items-center gap-5 px-6">
             <div className="grid place-items-center">
-              <div className="overflow-hidden rounded-lg">
+              <div className="overflow-hidden rounded-lg mt-48">
                 <Image
                   src="/magnifying_glass_tilted_left_3d.png"
                   alt="magnifying_glass_tilted_left_3d"
@@ -38,6 +38,7 @@ export default function PageNotFound() {
                   404
                 </h2>
               </div>
+              <p>Хм.. мы искали везде но не нашли</p>
               <div className="grid gap-3 md:grid-flow-col">
                 <Link
                   class="grid grid-flow-col items-center justify-center font-medium transition select-none px-5 py-2.5 gap-2.5 bg-zinc-100 dark:text-zinc-100 text-zinc-900 ring-1 ring-inset ring-black/15 dark:bg-zinc-700 dark:ring-white/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-dashed outline-zinc-700 hover:bg-zinc-200 active:bg-zinc-300 dark:hover:bg-zinc-750 dark:active:bg-zinc-600 rounded-full"

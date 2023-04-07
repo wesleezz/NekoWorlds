@@ -3,6 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Inter, Manrope } from "@next/font/google";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 const manrope = Manrope({ subsets: ["latin"] });
@@ -29,16 +30,13 @@ export default function Home() {
                 </span>
               </h1>
               <p className="mb-8 max-w-xl text-center text-lg leading-relaxed">
-                Сайт ещё не доделан и большая часть взята с
-                <a href="https://p-l.cc">
-                  <b> Pepeland</b>
-                </a>
+                Сайт ещё не доделан
               </p>
               <div className="mb-8 grid items-start justify-center gap-4 sm:grid-flow-col md:gap-6">
-                <a
+                <Link
                   className="grid grid-flow-col items-center justify-center font-medium transition select-none px-6 py-3 gap-2.5 bg-teal-600 text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-dashed outline-teal-700 hover:bg-teal-700 active:bg-teal-800 rounded-full bg-shine animate-shine [--shine-color:theme(colors.teal.500/50%)]"
                   aria-disabled="false"
-                  href="#"
+                  href="/wiki"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -60,7 +58,7 @@ export default function Home() {
                     <path d="M14 10h2"></path>
                   </svg>
                   Подробнее
-                </a>
+                </Link>
                 <button
                   className="grid grid-flow-col items-center justify-center font-medium transition select-none px-6 py-3 gap-2.5 bg-zinc-100 dark:text-zinc-100 text-zinc-900 ring-1 ring-inset ring-black/15 dark:bg-zinc-700 dark:ring-white/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-dashed outline-zinc-700 hover:bg-zinc-200 active:bg-zinc-300 dark:hover:bg-zinc-750 dark:active:bg-zinc-600 rounded-full"
                   aria-disabled="false"
@@ -164,6 +162,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <Footer></Footer>
       </main>
     </>
   );
