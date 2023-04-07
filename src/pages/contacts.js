@@ -31,6 +31,7 @@ export default function Page() {
                 <div className="grid grid-flow-col items-center justify-start gap-3 text-md font-medium">
                   <Image
                     src="/Wesleezz69.png"
+                    alt="Wesleezz69"
                     width="35"
                     height="35"
                     className="rounded"
@@ -58,6 +59,7 @@ export default function Page() {
                 <div className="grid grid-flow-col items-center justify-start gap-3 text-md font-medium">
                   <Image
                     src="/Klore.png"
+                    alt="Klore"
                     width="35"
                     height="35"
                     className="rounded"

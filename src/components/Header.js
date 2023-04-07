@@ -43,7 +43,7 @@ export default function Header() {
               className="block transition hover:opacity-90 active:scale-90"
               href="/"
             >
-              <Image src="/powerpow.png" width="45" height="45" />
+              <Image src="/powerpow.png" alt="powepow" width="45" height="45" />
             </Link>
           </div>
           <nav className="hidden grid-flow-col place-items-center gap-3.5 lg:grid lg:text-sm xl:text-base">

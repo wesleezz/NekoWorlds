@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="container px-6 mx-auto grid gap-3">
         <div className="grid grid-cols-2 items-start sm:items-center">
           <div className="grid items-center justify-start gap-5 text-sm sm:grid-flow-col">
-            <Image src="/powerpow.png" width="50" height="50" />
+            <Image src="/powerpow.png" alt="powerpow" width="50" height="50" />
             <div>
               Сервер является проектом{" "}
               <Link href="/tg">
