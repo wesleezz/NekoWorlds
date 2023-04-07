@@ -40,7 +40,7 @@ export default function Footer() {
           </Link>
         </div>
         <p className="text-sm text-zinc-600 dark:text-zinc-300">
-          Вдохновение сайта взято у <a href="https://p-l.cc">Pepeland'a.</a> We
+          Вдохновение сайта взято c <a href="https://p-l.cc">Pepeland.</a> We
           are in no way affiliated with or endorsed by Mojang, AB.
         </p>
       </div>
