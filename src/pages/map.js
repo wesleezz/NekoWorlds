@@ -2,7 +2,6 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import { Inter, Manrope } from "@next/font/google";
-import styles from "../styles/Rules.module.css";
 import Header from "../components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -19,12 +18,21 @@ export default function Page() {
       </Head>
       <main className="mt-24 mb-12">
         <Header></Header>
-        <iframe
-          title="NekoWorlds › Карта"
-          src="https://maps.nekocorp.gq:61128"
-          width="100%"
-          height="650"
-        ></iframe>
+
+        <figure className="grid place-items-center rounded-xl mt-8 bg-zinc-100/50 p-4 dark:bg-zinc-800/50 md:p-6">
+          <iframe
+            title="NekoWorlds › Карта"
+            src="https://maps.nekocorp.gq/maps"
+            width="100%"
+            fetchpriority="low"
+            draggable="true"
+            decoding="async"
+            data-nimg="1"
+            className="transition duration-500 [grid-area:1/1] opacity-1 rounded-lg my-0"
+            loading="lazy"
+            height="650"
+          ></iframe>
+        </figure>
       </main>
     </>
   );
