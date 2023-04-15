@@ -6,17 +6,17 @@ import jwt from "jsonwebtoken";
 export const authOptions = {
   providers: [
     DiscordProvider({
-      clientId: process.env.DISCORD_CLIENT_ID,
-      clientSecret: process.env.DISCORD_CLIENT_SECRET,
+      clientId: process.env.DISCORD_CLIENT_ID as string,
+      clientSecret: process.env.DISCORD_CLIENT_SECRET as string,
     }),
   ],
   adapter: SupabaseAdapter({
-    url: process.env.NEXT_PUBLIC_SUPABASE_URL,
-    secret: process.env.SUPABASE_SERVICE_ROLE_KEY,
+    url: process.env.NEXT_PUBLIC_SUPABASE_URL as string,
+    secret: process.env.SUPABASE_SERVICE_ROLE_KEY as string,
   }),
   callbacks: {
     async session({ session, user }) {
-      const signingSecret = process.env.SUPABASE_JWT_SECRET;
+      const signingSecret = process.env.SUPABASE_JWT_SECRET as string;
       if (signingSecret) {
         const payload = {
           aud: "authenticated",
