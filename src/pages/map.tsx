@@ -22,7 +22,7 @@ export default function Page() {
         <figure className="grid place-items-center rounded-xl mt-8 bg-zinc-100/50 p-4 dark:bg-zinc-800/50 md:p-6">
           <iframe
             title="NekoWorlds › Карта"
-            src="https://maps.nekocorp.gq/maps"
+            src="http://maps.nekocorp.gq:61128"
             width="100%"
             fetchpriority="low"
             draggable="true"
