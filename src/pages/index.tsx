@@ -1,12 +1,17 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import Clipboard from "clipboard";
 import { Inter, Manrope } from "@next/font/google";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 const manrope = Manrope({ subsets: ["latin"] });
+const handleCopy = () => {
+  const text = "mc.nekocorp.gq";
+  navigator.clipboard.writeText(text);
+};
 
 export default function Home() {
   return (
@@ -20,8 +25,8 @@ export default function Home() {
       <main className="mt-24 mb-12">
         <Header></Header>
 
-        <div className='relative grid grid-rows-1 items-center justify-center gap-6 overflow-hidden"><div class="grid h-full w-full grid-rows-1 place-items-center [grid-area:1/1] motion-safe:animate-homeCirclesContainer children:h-[400px] children:w-[400px] children:animate-homeCircle children:rounded-full children:blur-3xl children:[grid-area:1/1]"><div class="bg-teal-400/50 [--opacity-delay:-8s] [--position-delay:-3s]'>
-          <div className='grid h-full w-full grid-rows-1 place-items-center [grid-area:1/1] motion-safe:animate-homeCirclesContainer children:h-[400px] children:w-[400px] children:animate-homeCircle children:rounded-full children:blur-3xl children:[grid-area:1/1]"><div class="bg-teal-400/50 [--opacity-delay:-8s] [--position-delay:-3s]'>
+        <div className="relative grid grid-rows-1 items-center justify-center gap-6 overflow-hidden">
+          <div className="grid h-full w-full grid-rows-1 place-items-center [grid-area:1/1] motion-safe:animate-homeCirclesContainer children:h-[400px] children:w-[400px] children:animate-homeCircle children:rounded-full children:blur-3xl children:[grid-area:1/1]">
             <div className="relative z-30 grid place-items-center px-8 pt-32 pb-24 [grid-area:1/1] motion-safe:animate-homeText lg:pt-56 lg:pb-32">
               <h1 className="mx-auto mb-6 max-w-5xl text-center font-manrope text-5xl font-extrabold leading-[1.1] tracking-tighter md:text-6xl">
                 Ванильный сервер{" "}
@@ -60,8 +65,10 @@ export default function Home() {
                   Подробнее
                 </Link>
                 <button
-                  className="grid grid-flow-col items-center justify-center font-medium transition select-none px-6 py-3 gap-2.5 bg-zinc-100 dark:text-zinc-100 text-zinc-900 ring-1 ring-inset ring-black/15 dark:bg-zinc-700 dark:ring-white/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-dashed outline-zinc-700 hover:bg-zinc-200 active:bg-zinc-300 dark:hover:bg-zinc-750 dark:active:bg-zinc-600 rounded-full"
+                  className="grid grid-flow-col items-center justify-center font-medium transition select-none px-6 py-3 gap-2.5 bg-zinc-300 dark:text-zinc-100 text-zinc-900 ring-1 ring-inset ring-black/15 dark:bg-zinc-700 dark:ring-white/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-dashed outline-zinc-700 hover:bg-zinc-600 active:bg-zinc-600 dark:hover:bg-zinc-750 dark:active:bg-zinc-600 rounded-full"
                   aria-disabled="false"
+                  id="copy-button"
+                  onClick={handleCopy}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
