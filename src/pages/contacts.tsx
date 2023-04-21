@@ -1,11 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Inter, Manrope } from "@next/font/google";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-
-const inter = Inter({ subsets: ["latin"] });
-const manrope = Manrope({ subsets: ["latin"] });
 
 export default function Page() {
   return (
@@ -39,7 +35,7 @@ export default function Page() {
                   Wesleezz69
                 </div>
                 <a
-                  className="grid grid-flow-col items-center justify-center font-medium transition select-none px-5 py-2.5 gap-2.5 bg-zinc-100 dark:text-zinc-100 text-zinc-900 ring-1 ring-inset ring-black/15 dark:bg-zinc-700 dark:ring-white/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-dashed outline-zinc-700 hover:bg-zinc-200 active:bg-zinc-300 dark:hover:bg-zinc-750 dark:active:bg-zinc-600 rounded-lg"
+                  className="grid grid-flow-col items-center justify-center font-medium transition select-none px-5 py-2.5 gap-2.5 bg-zinc-100 dark:text-zinc-100 text-zinc-900 ring-1 ring-inset ring-black/15 dark:bg-zinc-700 dark:ring-white/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-dashed outline-zinc-700 hover:bg-zinc-600 active:bg-zinc-700 dark:hover:bg-zinc-750 dark:active:bg-zinc-600 rounded-lg"
                   href="https://t.me/wesleezz"
                 >
                   <svg
@@ -67,7 +63,7 @@ export default function Page() {
                   Klore
                 </div>
                 <a
-                  className="grid grid-flow-col items-center justify-center font-medium transition select-none px-5 py-2.5 gap-2.5 bg-zinc-100 dark:text-zinc-100 text-zinc-900 ring-1 ring-inset ring-black/15 dark:bg-zinc-700 dark:ring-white/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-dashed outline-zinc-700 hover:bg-zinc-200 active:bg-zinc-300 dark:hover:bg-zinc-750 dark:active:bg-zinc-600 rounded-lg"
+                  className="grid grid-flow-col items-center justify-center font-medium transition select-none px-5 py-2.5 gap-2.5 bg-zinc-100 dark:text-zinc-100 text-zinc-900 ring-1 ring-inset ring-black/15 dark:bg-zinc-700 dark:ring-white/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-dashed outline-zinc-700 hover:bg-zinc-600 active:bg-zinc-700 dark:hover:bg-zinc-750 dark:active:bg-zinc-600 rounded-lg"
                   href="https://t.me/newdlez"
                 >
                   <svg

@@ -1,13 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import Clipboard from "clipboard";
-import { Inter, Manrope } from "@next/font/google";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-const inter = Inter({ subsets: ["latin"] });
-const manrope = Manrope({ subsets: ["latin"] });
 const handleCopy = () => {
   const text = "mc.nekocorp.gq";
   navigator.clipboard.writeText(text);
@@ -65,7 +61,7 @@ export default function Home() {
                   Подробнее
                 </Link>
                 <button
-                  className="grid grid-flow-col items-center justify-center font-medium transition select-none px-6 py-3 gap-2.5 bg-zinc-300 dark:text-zinc-100 text-zinc-900 ring-1 ring-inset ring-black/15 dark:bg-zinc-700 dark:ring-white/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-dashed outline-zinc-700 hover:bg-zinc-600 active:bg-zinc-600 dark:hover:bg-zinc-750 dark:active:bg-zinc-600 rounded-full"
+                  className="grid grid-flow-col items-center justify-center font-medium transition select-none px-6 py-3 gap-2.5 bg-zinc-300 dark:text-zinc-100 text-zinc-900 ring-1 ring-inset ring-black/15 dark:bg-zinc-700 dark:ring-white/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-dashed outline-zinc-700 hover:bg-zinc-600 active:bg-zinc-700 dark:hover:bg-zinc-750 dark:active:bg-zinc-600 rounded-full"
                   aria-disabled="false"
                   id="copy-button"
                   onClick={handleCopy}
@@ -94,8 +90,8 @@ export default function Home() {
                 <span className="hidden sm:inline">
                   Minecraft: Java Edition
                 </span>
-                <span className="opacity-75 hidden sm:inline">·</span>
-                <span className="hidden sm:inline">Без лицензии</span>
+                <span className="opacity-75">·</span>
+                <span className="">Без лицензии</span>
               </div>
             </div>
           </div>

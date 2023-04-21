@@ -1,9 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Inter, Manrope } from "@next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
-const manrope = Manrope({ subsets: ["latin"] });
 
 export default function Header() {
   return (
