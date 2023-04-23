@@ -46,63 +46,63 @@ export default function Home() {
             <div className="hidden lg:block">
               <div className="lg:top-18 -ml-6 h-[calc(100vh-4.5rem)] overflow-y-auto px-6 py-8 [--scrollbar-size:theme(width.3)] lg:sticky">
                 <div className="grid select-none">
-                  <a
+                  <Link
                     className="relative -ml-3 grid grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm font-medium text-teal-500 transition hover:bg-zinc-100 dark:text-teal-400 dark:hover:bg-zinc-800"
                     href="/wiki"
                     style={{ scrollMargin: "calc(50vh - 2.25rem)" }}
                   >
                     Введение
                     <div className="h-1.5 w-1.5 rounded-full bg-green-500/75" />
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
                     href="/wiki/faq"
                   >
                     Часто задаваемые вопросы
-                  </a>
+                  </Link>
                   <div className="mb-3 mt-4 grid">
                     <div className="font-manrope mb-3 font-bold">
                       Игровой контент
                     </div>
                     <div className="ml-4">
                       <div className="grid select-none">
-                        <a
+                        <Link
                           className="relative -ml-3 grid grid grid-flow-col grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
                           href="/wiki/game/badges"
                         >
                           Ресурспак
                           <div className="h-1.5 w-1.5 rounded-full bg-green-500/75" />
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
                           href="/wiki/game/emotes"
                         >
                           Мешки
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
                           href="/wiki/game/frames"
                         >
                           Невидимые рамки
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
                           href="/wiki/game/heads"
                         >
                           Головы
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
                           href="/wiki/game/social-credits"
                         >
                           Социальный рейтинг
-                        </a>
-                        <a
+                        </Link>
+                        <Link
                           className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
                           href="/wiki/game/stands"
                         >
                           Кастомизация стендов
-                        </a>
+                        </Link>
                       </div>
                     </div>
                   </div>
@@ -116,12 +116,12 @@ export default function Home() {
                           </div>
                           <div className="ml-4">
                             <div className="grid select-none">
-                              <a
+                              <Link
                                 className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
                                 href="/wiki/profile/integrations/discord"
                               >
                                 Discord
-                              </a>
+                              </Link>
                             </div>
                           </div>
                         </div>
