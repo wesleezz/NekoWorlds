@@ -12,13 +12,13 @@ export default function PageNotFound() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/power.png" />
       </Head>
-      <main className="mt-24 mb-12">
+      <main className="mb-12 mt-24">
         <Header></Header>
 
         <div className="grid h-full items-center justify-center">
           <div className="grid place-items-center gap-5 px-6">
             <div className="grid place-items-center">
-              <div className="overflow-hidden rounded-lg mt-48">
+              <div className="mt-48 overflow-hidden rounded-lg">
                 <Image
                   src="/magnifying_glass_tilted_left_3d.png"
                   alt="magnifying_glass_tilted_left_3d"
@@ -26,17 +26,17 @@ export default function PageNotFound() {
                   height="256"
                   decoding="async"
                   data-nimg="1"
-                  className="duration-700 ease-in-out scale-100 blur-0 grayscale-0 h-16 w-16"
+                  className="h-16 w-16 scale-100 blur-0 grayscale-0 duration-700 ease-in-out"
                   loading="lazy"
                 />
-                <h2 className="text-center font-manrope text-3xl font-extrabold tracking-tight">
+                <h2 className="font-manrope text-center text-3xl font-extrabold tracking-tight">
                   404
                 </h2>
               </div>
               <p>Хм.. мы искали везде но не нашли</p>
               <div className="grid gap-3 md:grid-flow-col">
                 <Link
-                  className="grid grid-flow-col items-center justify-center font-medium transition select-none px-5 py-2.5 gap-2.5 bg-zinc-100 dark:text-zinc-100 text-zinc-900 ring-1 ring-inset ring-black/15 dark:bg-zinc-700 dark:ring-white/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-dashed outline-zinc-700 hover:bg-zinc-600 active:bg-zinc-700 dark:hover:bg-zinc-750 dark:active:bg-zinc-600 rounded-full"
+                  className="ring-black/15 dark:ring-white/15 cz-color-16119028 cz-color-4603711 cz-color-15460325 grid select-none grid-flow-col items-center justify-center gap-2.5 rounded-full bg-zinc-100 px-6 py-3 font-medium text-zinc-900 outline-zinc-700 ring-1 ring-inset transition hover:bg-zinc-200 focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-offset-2 active:bg-zinc-300 dark:bg-zinc-700 dark:text-zinc-100 dark:hover:bg-zinc-600 dark:active:bg-zinc-500"
                   aria-disabled="false"
                   href="/"
                 >

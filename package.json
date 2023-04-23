@@ -22,6 +22,7 @@
     "@popperjs/core": "^2.11.7",
     "@prisma/client": "^4.12.0",
     "@supabase/supabase-js": "^2.15.0",
+    "@vercel/analytics": "^1.0.0",
     "@wiicamp/react-minecraft-skin-viewer": "^1.0.6",
     "autoprefixer": "^10.4.14",
     "bootstrap": "^5.2.3",
@@ -39,6 +40,7 @@
     "next-auth": "^4.21.1",
     "next-i18next": "^13.2.2",
     "next-intl": "^2.10.4",
+    "next-themes": "^0.2.1",
     "next-translate": "^2.0.3",
     "nextra": "^2.2.3",
     "nextra-theme-docs": "^2.2.3",
@@ -57,6 +59,8 @@
   "devDependencies": {
     "@types/react": "^18.0.29",
     "@types/react-dom": "^18.0.11",
+    "prettier": "^2.8.7",
+    "prettier-plugin-tailwindcss": "^0.2.7",
     "prisma": "^4.12.0",
     "qwik-speak": "^0.5.0",
     "typescript": "^5.0.2"

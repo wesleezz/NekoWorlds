@@ -12,19 +12,19 @@ export default function Page() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/power.png" />
       </Head>
-      <main className="mt-24 mb-12">
+      <main className="mb-12 mt-24">
         <Header></Header>
 
         <div className="grid items-center justify-center">
           <div className="mb-8 grid place-items-center gap-4">
-            <h1 className="font-manrope text-3xl font-extrabold tracking-tight mt-14">
+            <h1 className="font-manrope mt-14 text-3xl font-extrabold tracking-tight">
               Контакты
             </h1>
           </div>
-          <div className="container px-6 mx-auto grid gap-8 lg:grid-cols-2">
+          <div className="container mx-auto grid gap-8 px-6 lg:grid-cols-2">
             <div className="">
-              <div className="grid w-96 gap-5 rounded-lg p-5 bg-zinc-50/50 dark:bg-zinc-800/40 ring-1 ring-inset ring-black/10 dark:ring-zinc-600/30">
-                <div className="grid grid-flow-col items-center justify-start gap-3 text-md font-medium">
+              <div className="grid w-96 gap-5 rounded-lg bg-zinc-50/50 p-5 ring-1 ring-inset ring-black/10 dark:bg-zinc-800/40 dark:ring-zinc-600/30">
+                <div className="text-md grid grid-flow-col items-center justify-start gap-3 font-medium">
                   <Image
                     src="/Wesleezz69.png"
                     alt="Wesleezz69"
@@ -35,7 +35,7 @@ export default function Page() {
                   Wesleezz69
                 </div>
                 <a
-                  className="grid grid-flow-col items-center justify-center font-medium transition select-none px-5 py-2.5 gap-2.5 bg-zinc-100 dark:text-zinc-100 text-zinc-900 ring-1 ring-inset ring-black/15 dark:bg-zinc-700 dark:ring-white/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-dashed outline-zinc-700 hover:bg-zinc-600 active:bg-zinc-700 dark:hover:bg-zinc-750 dark:active:bg-zinc-600 rounded-lg"
+                  className="ring-black/15 dark:ring-white/15 grid select-none grid-flow-col items-center justify-center gap-2.5 rounded-lg bg-zinc-100 px-5 py-2.5 font-medium text-zinc-900 outline-zinc-700 ring-1 ring-inset transition hover:bg-zinc-200 focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-offset-2 active:bg-zinc-300 dark:bg-zinc-700 dark:text-zinc-100 dark:hover:bg-zinc-600 dark:active:bg-zinc-500"
                   href="https://t.me/wesleezz"
                 >
                   <svg
@@ -51,8 +51,8 @@ export default function Page() {
               </div>
             </div>
             <div className="">
-              <div className="grid w-96 gap-5 rounded-lg p-5 bg-zinc-50/50 dark:bg-zinc-800/40 ring-1 ring-inset ring-black/10 dark:ring-zinc-600/30">
-                <div className="grid grid-flow-col items-center justify-start gap-3 text-md font-medium">
+              <div className="grid w-96 gap-5 rounded-lg bg-zinc-50/50 p-5 ring-1 ring-inset ring-black/10 dark:bg-zinc-800/40 dark:ring-zinc-600/30">
+                <div className="text-md grid grid-flow-col items-center justify-start gap-3 font-medium">
                   <Image
                     src="/Klore.png"
                     alt="Klore"
@@ -63,7 +63,7 @@ export default function Page() {
                   Klore
                 </div>
                 <a
-                  className="grid grid-flow-col items-center justify-center font-medium transition select-none px-5 py-2.5 gap-2.5 bg-zinc-100 dark:text-zinc-100 text-zinc-900 ring-1 ring-inset ring-black/15 dark:bg-zinc-700 dark:ring-white/15 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-dashed outline-zinc-700 hover:bg-zinc-600 active:bg-zinc-700 dark:hover:bg-zinc-750 dark:active:bg-zinc-600 rounded-lg"
+                  className="ring-black/15 dark:ring-white/15 grid select-none grid-flow-col items-center justify-center gap-2.5 rounded-lg bg-zinc-100 px-5 py-2.5 font-medium text-zinc-900 outline-zinc-700 ring-1 ring-inset transition hover:bg-zinc-200 focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-offset-2 active:bg-zinc-300 dark:bg-zinc-700 dark:text-zinc-100 dark:hover:bg-zinc-600 dark:active:bg-zinc-500"
                   href="https://t.me/newdlez"
                 >
                   <svg

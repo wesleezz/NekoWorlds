@@ -97,7 +97,7 @@ body {
 }
 
 body {
-  background-color: #18181b;
+  @apply bg-white dark:bg-[#18181b];
 }
 
 a {
@@ -115,15 +115,23 @@ a {
   width: var(--scrollbar-size);
   height: var(--scrollbar-size);
 }
+.dark ::-webkit-scrollbar-thumb {
+  --tw-bg-opacity: 1;
+  background-color: rgb(113 113 122 / var(--tw-bg-opacity));
+}
 ::-webkit-scrollbar-thumb {
   border-radius: 9999px;
-  border: 5px solid transparent;
+  border: 6px solid transparent;
   --tw-bg-opacity: 1;
   background-color: rgb(82 82 91 / var(--tw-bg-opacity));
   background-clip: padding-box;
 }
+.dark ::-webkit-scrollbar-track {
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 39 42 / var(--tw-bg-opacity));
+}
 ::-webkit-scrollbar-track {
   --tw-bg-opacity: 1;
-  background-color: #18181b;
+  background-color: rgb(244 244 245 / var(--tw-bg-opacity));
   padding: 0.25rem;
 }
