@@ -25,9 +25,8 @@ export default function Home() {
               <div className="lg:top-18 -ml-6 h-[calc(100vh-4.5rem)] overflow-y-auto px-6 py-8 [--scrollbar-size:theme(width.3)] lg:sticky">
                 <div className="grid select-none">
                   <Link
-                    className="relative -ml-3 grid grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm font-medium text-teal-500 transition hover:bg-zinc-100 dark:text-teal-400 dark:hover:bg-zinc-800"
+                    className="relative -ml-3 grid grid grid-flow-col grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
                     href="/wiki"
-                    style={{ scrollMargin: "calc(50vh - 2.25rem)" }}
                   >
                     Введение
                     <div className="h-1.5 w-1.5 rounded-full bg-green-500/75" />
@@ -35,10 +34,11 @@ export default function Home() {
                   <Link
                     className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
                     href="/wiki/faq"
+                    style={{ scrollMargin: "calc(50vh - 2.25rem)" }}
                   >
                     Часто задаваемые вопросы
                   </Link>
-                  <div className="mb-3 mt-4 grid">
+                  <div className="relative -ml-3 grid grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm font-medium text-teal-500 transition hover:bg-zinc-100 dark:text-teal-400 dark:hover:bg-zinc-800">
                     <div className="font-manrope mb-3 font-bold">
                       Игровой контент
                     </div>
@@ -197,9 +197,9 @@ export default function Home() {
                                   </div>
                                   <Link
                                     className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
-                                    href="#first-time"
+                                    href="#banal-questions"
                                   >
-                                    Впервые на сервере?
+                                    Банальные вопросы
                                   </Link>
                                   <div className="font-manrope mb-3 grid grid-cols-[auto_1fr] items-center justify-start gap-3 font-bold">
                                     <svg
@@ -217,19 +217,19 @@ export default function Home() {
                                     Другие страницы
                                   </div>
                                   <Link
-                                    className="relative -ml-3 grid grid grid-flow-col grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm font-medium text-teal-500 transition hover:bg-zinc-100 dark:text-teal-400 dark:hover:bg-zinc-800"
-                                    aria-current="page"
+                                    className="relative -ml-3 grid grid grid-flow-col grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
                                     href="/wiki"
-                                    style={{
-                                      scrollMargin: "calc(50vh - 2.25rem)",
-                                    }}
                                   >
                                     Введение
                                     <div className="h-1.5 w-1.5 rounded-full bg-green-500/75" />
                                   </Link>
                                   <Link
-                                    className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+                                    className="relative -ml-3 grid grid grid-flow-col grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm font-medium text-teal-500 transition hover:bg-zinc-100 dark:text-teal-400 dark:hover:bg-zinc-800"
+                                    aria-current="page"
                                     href="/wiki/faq"
+                                    style={{
+                                      scrollMargin: "calc(50vh - 2.25rem)",
+                                    }}
                                   >
                                     Часто задаваемые вопросы
                                   </Link>
@@ -316,27 +316,18 @@ export default function Home() {
               <div className="grid items-start pb-12 lg:mt-8 lg:w-[32rem] xl:w-[40rem] 2xl:w-[48rem]">
                 <div className="mb-6 grid w-full items-center justify-start gap-4 lg:grid-flow-col lg:justify-between">
                   <h1 className="font-manrope text-3xl font-bold tracking-tight">
-                    Введение
+                    Часто задаваемые вопросы
                   </h1>
-                  <div className="grid justify-start text-sm font-semibold">
-                    <div className="-my-1 rounded-full bg-green-100/50 px-3 py-1 text-green-800 ring-1 ring-inset ring-green-300/50 dark:bg-green-700/20 dark:text-green-500 dark:ring-green-700/20">
-                      Вики в разработке
-                    </div>
-                  </div>
                 </div>
                 <div className="prose prose-zinc dark:prose-invert prose-img:rounded-lg prose-headings:font-manrope prose-code:text-teal-600 dark:prose-code:text-teal-500 prose-pre:my-0 prose-pre:bg-transparent prose-pre:p-0 prose-pre:text-zinc-800 dark:prose-pre:text-zinc-200 prose-a:underline-offset-2 prose-a:transition prose-a:text-teal-600 prose-a:decoration-teal-300/50 hover:prose-a:text-teal-700 hover:prose-a:decoration-teal-400/50 dark:prose-a:text-teal-500 dark:prose-a:decoration-teal-700/50 dark:hover:prose-a:text-teal-300 dark:hover:prose-a:decoration-teal-500/50 max-w-full [&_li_p]:my-0">
                   <article>
-                    <p>
-                      Приветствуем вас это вики сервера NekoWorlds. Тут можно
-                      найти и гайды и ответы на вопросы.
-                    </p>
                     <h3
                       id="first-time"
                       className="font-inter not-prose group mb-5 mt-5 scroll-mt-40 text-2xl tracking-tight lg:-ml-6 lg:grid lg:scroll-mt-24 lg:grid-cols-[auto_1fr] lg:items-center lg:justify-start lg:gap-2"
                     >
                       <a
                         className="-m-1.5 hidden p-1.5 text-zinc-800 opacity-0 transition hover:text-teal-600 focus-visible:opacity-100 group-hover:opacity-100 motion-safe:translate-x-2 motion-safe:focus-visible:translate-x-0 motion-safe:group-hover:translate-x-0 dark:text-zinc-200 dark:hover:text-teal-500 lg:block"
-                        href="#first-time"
+                        href="#banal-questions"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -354,7 +345,7 @@ export default function Home() {
                           ></path>
                         </svg>
                       </a>
-                      Впервые на сервере?
+                      Банальные вопросы
                       <a
                         className="-mb-0.5 inline-block opacity-0 transition group-hover:opacity-100 lg:hidden"
                         href="#first-time"
@@ -376,55 +367,14 @@ export default function Home() {
                         </svg>
                       </a>
                     </h3>
-                    <ul className="mb-5 mt-5 list-inside list-disc gap-2 rounded-lg px-6 marker:grid lg:list-outside">
-                      <li className=" text-teal-400 underline decoration-zinc-800 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10">
-                        <Link href="/rules">Правила сервера</Link>
+                    <ul className="mb-5 mt-5 gap-2 rounded-lg">
+                      <li className="">
+                        <h3 className="font-inter not-prose group mb-5 mt-5 scroll-mt-40 text-xl tracking-tight lg:-ml-6 lg:grid lg:scroll-mt-24 lg:grid-cols-[auto_1fr] lg:items-center lg:justify-start lg:gap-2">
+                          Какая версия сервера?
+                        </h3>
+                        <p>Версия: Java Edition 1.19.2</p>
                       </li>
                     </ul>
-                    <div className="grid">
-                      <figure className="mt-8 grid place-items-center rounded-xl bg-zinc-100/50 p-4 dark:bg-zinc-800/50 md:p-6">
-                        <div className="grid">
-                          <Image
-                            src="/screenshot_1.png"
-                            alt="screenshot"
-                            width="1920"
-                            height="1080"
-                            draggable="true"
-                            data-nimg="1"
-                            className="opacity-1 my-0 h-auto max-h-96 w-auto max-w-full rounded-lg transition duration-500 [grid-area:1/1]"
-                            loading="lazy"
-                          />
-                        </div>
-                      </figure>
-                      <figure className="mt-8 grid place-items-center rounded-xl bg-zinc-100/50 p-4 dark:bg-zinc-800/50 md:p-6">
-                        <div className="grid">
-                          <Image
-                            src="/screenshot_2.png"
-                            alt="screenshot"
-                            width="1920"
-                            height="1080"
-                            draggable="true"
-                            data-nimg="1"
-                            className="opacity-1 my-0 h-auto max-h-96 w-auto max-w-full rounded-lg transition duration-500 [grid-area:1/1]"
-                            loading="lazy"
-                          />
-                        </div>
-                      </figure>
-                      <figure className="mt-8 grid place-items-center rounded-xl bg-zinc-100/50 p-4 dark:bg-zinc-800/50 md:p-6">
-                        <div className="relative grid">
-                          <Image
-                            src="/screenshot_3.png"
-                            alt="screenshot"
-                            width="1920"
-                            height="1080"
-                            draggable="true"
-                            data-nimg="1"
-                            className="opacity-1 my-0 h-auto max-h-96 w-auto max-w-full rounded-lg transition duration-500 [grid-area:1/1]"
-                            loading="lazy"
-                          />
-                        </div>
-                      </figure>
-                    </div>
                   </article>
                 </div>
               </div>
@@ -458,10 +408,10 @@ export default function Home() {
                       <li>
                         <a
                           className="-ml-3 ml-7 grid cursor-pointer items-center justify-start rounded-lg px-3 py-2 text-left text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
-                          href="#first-time"
+                          href="#banal-questions"
                         >
                           <div className="col-start-2">
-                            Впервые на сервере?{" "}
+                            Банальные вопросы {""}
                           </div>
                         </a>
                       </li>
