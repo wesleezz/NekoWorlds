@@ -1,8 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import Header from "../../components/Header";
-import Footer from "../../components/Footer";
+import Header from "../../../components/Header";
+import Footer from "../../../components/Footer";
 import { Menu, Transition } from "@headlessui/react";
 import { Fragment, useEffect, useRef, useState } from "react";
 import { forwardRef } from "react";
@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>NekoWorlds › Вики · ЧаВо</title>
+        <title>NekoWorlds › Вики · Эмоции</title>
         <meta name="description" content="Ванильный сервер" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/power.png" />
@@ -25,16 +25,15 @@ export default function Home() {
               <div className="lg:top-18 -ml-6 h-[calc(100vh-4.5rem)] overflow-y-auto px-6 py-8 [--scrollbar-size:theme(width.3)] lg:sticky">
                 <div className="grid select-none">
                   <Link
-                    className="relative -ml-3 grid grid grid-flow-col grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+                    className="relative -ml-3 grid grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm font-medium text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
                     href="/wiki"
                   >
                     Введение
                     <div className="h-1.5 w-1.5 rounded-full bg-green-500/75" />
                   </Link>
                   <Link
-                    className="relative -ml-3 grid grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm font-medium text-teal-500 transition hover:bg-zinc-100 dark:text-teal-400 dark:hover:bg-zinc-800"
+                    className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
                     href="/wiki/faq"
-                    style={{ scrollMargin: "calc(50vh - 2.25rem)" }}
                   >
                     Часто задаваемые вопросы
                   </Link>
@@ -52,8 +51,9 @@ export default function Home() {
                           <div className="h-1.5 w-1.5 rounded-full bg-green-500/75" />
                         </Link>
                         <Link
-                          className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+                          className="relative -ml-3 grid grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm font-medium text-teal-500 transition hover:bg-zinc-100 dark:text-teal-400 dark:hover:bg-zinc-800"
                           href="/wiki/game/emotes"
+                          style={{ scrollMargin: "calc(50vh - 2.25rem)" }}
                         >
                           Эмоции
                         </Link>
@@ -197,9 +197,9 @@ export default function Home() {
                                   </div>
                                   <Link
                                     className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
-                                    href="#banal-questions"
+                                    href="#how-to"
                                   >
-                                    Банальные вопросы
+                                    Как использовать?
                                   </Link>
                                   <div className="font-manrope mb-3 grid grid-cols-[auto_1fr] items-center justify-start gap-3 font-bold">
                                     <svg
@@ -217,19 +217,15 @@ export default function Home() {
                                     Другие страницы
                                   </div>
                                   <Link
-                                    className="relative -ml-3 grid grid grid-flow-col grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+                                    className="relative -ml-3 grid grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm font-medium text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
                                     href="/wiki"
                                   >
                                     Введение
                                     <div className="h-1.5 w-1.5 rounded-full bg-green-500/75" />
                                   </Link>
                                   <Link
-                                    className="relative -ml-3 grid grid grid-flow-col grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm font-medium text-teal-500 transition hover:bg-zinc-100 dark:text-teal-400 dark:hover:bg-zinc-800"
-                                    aria-current="page"
+                                    className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
                                     href="/wiki/faq"
-                                    style={{
-                                      scrollMargin: "calc(50vh - 2.25rem)",
-                                    }}
                                   >
                                     Часто задаваемые вопросы
                                   </Link>
@@ -247,8 +243,13 @@ export default function Home() {
                                           <div className="h-1.5 w-1.5 rounded-full bg-green-500/75" />
                                         </Link>
                                         <Link
-                                          className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+                                          className="relative -ml-3 grid grid grid-flow-col grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm font-medium text-teal-500 transition hover:bg-zinc-100 dark:text-teal-400 dark:hover:bg-zinc-800"
+                                          aria-current="page"
                                           href="/wiki/game/emotes"
+                                          style={{
+                                            scrollMargin:
+                                              "calc(50vh - 2.25rem)",
+                                          }}
                                         >
                                           Эмоции
                                         </Link>
@@ -314,20 +315,29 @@ export default function Home() {
                 </Menu>
               </div>
               <div className="grid items-start pb-12 lg:mt-8 lg:w-[32rem] xl:w-[40rem] 2xl:w-[48rem]">
+                <div className="font-manrope mb-4 grid grid-flow-col items-center justify-start gap-1.5 text-sm font-semibold">
+                  <span className="text-teal-500 dark:text-teal-400">
+                    Игровой контент
+                  </span>
+                </div>
                 <div className="mb-6 grid w-full items-center justify-start gap-4 lg:grid-flow-col lg:justify-between">
                   <h1 className="font-manrope text-3xl font-bold tracking-tight">
-                    Часто задаваемые вопросы
+                    Эмоции
                   </h1>
+                  <div className="grid justify-start text-sm font-semibold"></div>
                 </div>
                 <div className="prose prose-zinc dark:prose-invert prose-img:rounded-lg prose-headings:font-manrope prose-code:text-teal-600 dark:prose-code:text-teal-500 prose-pre:my-0 prose-pre:bg-transparent prose-pre:p-0 prose-pre:text-zinc-800 dark:prose-pre:text-zinc-200 prose-a:underline-offset-2 prose-a:transition prose-a:text-teal-600 prose-a:decoration-teal-300/50 hover:prose-a:text-teal-700 hover:prose-a:decoration-teal-400/50 dark:prose-a:text-teal-500 dark:prose-a:decoration-teal-700/50 dark:hover:prose-a:text-teal-300 dark:hover:prose-a:decoration-teal-500/50 max-w-full [&_li_p]:my-0">
                   <article>
+                    <p className="text-zinc-700 dark:text-zinc-200">
+                      Это ведь круто можно танцевать
+                    </p>
                     <h3
-                      id="first-time"
+                      id="how-to"
                       className="font-inter not-prose group mb-5 mt-5 scroll-mt-40 text-2xl tracking-tight lg:-ml-6 lg:grid lg:scroll-mt-24 lg:grid-cols-[auto_1fr] lg:items-center lg:justify-start lg:gap-2"
                     >
                       <a
                         className="-m-1.5 hidden p-1.5 text-zinc-800 opacity-0 transition hover:text-teal-600 focus-visible:opacity-100 group-hover:opacity-100 motion-safe:translate-x-2 motion-safe:focus-visible:translate-x-0 motion-safe:group-hover:translate-x-0 dark:text-zinc-200 dark:hover:text-teal-500 lg:block"
-                        href="#banal-questions"
+                        href="#how-to"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -345,10 +355,10 @@ export default function Home() {
                           ></path>
                         </svg>
                       </a>
-                      Банальные вопросы
+                      Как использовать?
                       <a
                         className="-mb-0.5 inline-block opacity-0 transition group-hover:opacity-100 lg:hidden"
-                        href="#first-time"
+                        href="#how-to"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -367,14 +377,113 @@ export default function Home() {
                         </svg>
                       </a>
                     </h3>
-                    <ul className="mb-5 mt-5 gap-2 rounded-lg">
-                      <li className="">
-                        <h3 className="font-inter not-prose group mb-5 mt-5 scroll-mt-40 text-xl tracking-tight lg:-ml-6 lg:grid lg:scroll-mt-24 lg:grid-cols-[auto_1fr] lg:items-center lg:justify-start lg:gap-2">
-                          Какая версия сервера?
-                        </h3>
-                        <p>Версия: Java Edition 1.19.2</p>
+                    <ul className="mb-5 mt-5 gap-2 px-0">
+                      <li className="text-zinc-700 dark:text-zinc-200">
+                        Для этого вам пригодиться мод под названием
+                        <a
+                          href="https://modrinth.com/mod/emotecraft"
+                          className="ml-1 text-teal-400 underline decoration-zinc-300 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10"
+                        >
+                          Emotecraft
+                        </a>
                       </li>
                     </ul>
+                    <h3
+                      id="where-find"
+                      className="font-inter not-prose group mb-5 mt-5 scroll-mt-40 text-2xl tracking-tight lg:-ml-6 lg:grid lg:scroll-mt-24 lg:grid-cols-[auto_1fr] lg:items-center lg:justify-start lg:gap-2"
+                    >
+                      <a
+                        className="-m-1.5 hidden p-1.5 text-zinc-800 opacity-0 transition hover:text-teal-600 focus-visible:opacity-100 group-hover:opacity-100 motion-safe:translate-x-2 motion-safe:focus-visible:translate-x-0 motion-safe:group-hover:translate-x-0 dark:text-zinc-200 dark:hover:text-teal-500 lg:block"
+                        href="#where-find"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="2"
+                          stroke="currentColor"
+                          aria-hidden="true"
+                          className="h-4 w-4"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
+                          ></path>
+                        </svg>
+                      </a>
+                      Пак-эмоций
+                      <a
+                        className="-mb-0.5 inline-block opacity-0 transition group-hover:opacity-100 lg:hidden"
+                        href="#how-to"
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="2"
+                          stroke="currentColor"
+                          aria-hidden="true"
+                          className="h-4 w-4"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"
+                          ></path>
+                        </svg>
+                      </a>
+                    </h3>
+                    <ul className="mb-5 mt-5 list-inside list-disc gap-2 rounded-lg px-6 marker:grid lg:list-outside">
+                      <li className="mb-3 text-zinc-700 dark:text-zinc-200">
+                        Версия эмотпака: 1.1
+                      </li>
+                      <li className="text-zinc-700 dark:text-zinc-200">
+                        Последнее обновление: 29 апреля 2023
+                      </li>
+                    </ul>
+                    <div className="not-prose grid grid-flow-col justify-start">
+                      <a
+                        className="ring-black/15 dark:ring-white/15 dark:hover:bg-zinc-250 grid select-none grid-flow-col items-center justify-center gap-2 rounded-lg bg-zinc-100 px-4 py-2 font-medium text-zinc-900 outline-zinc-700 ring-1 ring-inset transition hover:bg-zinc-200 focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-offset-2 active:bg-zinc-300 dark:bg-zinc-700 dark:text-zinc-100 dark:active:bg-zinc-600"
+                        aria-disabled="false"
+                        href="https://drive.google.com/uc?id=1K4t8kC2muHCu8PfBvw7zX6NEEtA0vNdz&amp;export=download"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <p>Загрузить эмотпак</p>
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          stroke-width="2"
+                          stroke="currentColor"
+                          aria-hidden="true"
+                          className="h-5 w-5"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+                          ></path>
+                        </svg>
+                      </a>
+                    </div>
+                    <div className="grid">
+                      <figure className="mt-8 grid place-items-center rounded-xl bg-zinc-100/50 p-4 dark:bg-zinc-800/50 md:p-6">
+                        <div className="grid">
+                          <Image
+                            src="/wiz.gif"
+                            alt="screenshot"
+                            width="1920"
+                            height="1080"
+                            draggable="true"
+                            data-nimg="1"
+                            className="opacity-1 my-0 h-auto max-h-96 w-auto max-w-full rounded-lg transition duration-500 [grid-area:1/1]"
+                            loading="lazy"
+                          />
+                        </div>
+                      </figure>
+                    </div>
                   </article>
                 </div>
               </div>
@@ -408,11 +517,9 @@ export default function Home() {
                       <li>
                         <a
                           className="-ml-3 ml-7 grid cursor-pointer items-center justify-start rounded-lg px-3 py-2 text-left text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
-                          href="#banal-questions"
+                          href="#how-to"
                         >
-                          <div className="col-start-2">
-                            Банальные вопросы {""}
-                          </div>
+                          <div className="col-start-2">Как использовать? </div>
                         </a>
                       </li>
                     </ul>

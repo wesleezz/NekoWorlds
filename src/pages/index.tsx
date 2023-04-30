@@ -19,22 +19,26 @@ export default function Home() {
         <link rel="icon" href="/power.png" />
       </Head>
       <main className="mb-12 mt-24">
+        {/* Хеадер */}
         <Header></Header>
 
         <div className="relative grid grid-rows-1 items-center justify-center gap-6 overflow-hidden">
           <div className="motion-safe:animate-homeCirclesContainer children:h-[400px] children:w-[400px] children:animate-homeCircle children:rounded-full children:blur-3xl children:[grid-area:1/1] grid h-full w-full grid-rows-1 place-items-center [grid-area:1/1]">
             <div className="motion-safe:animate-homeText relative z-30 grid place-items-center px-8 pb-24 pt-32 [grid-area:1/1] lg:pb-32 lg:pt-56">
+              {/* Заголовок */}
               <h1 className="font-manrope mx-auto mb-6 max-w-5xl text-center text-5xl font-extrabold leading-[1.1] tracking-tighter md:text-6xl">
                 Ванильный сервер{" "}
                 <span className="text-teal-600 dark:text-teal-400">
                   для всех
                 </span>
               </h1>
+              {/* Описание */}
               <p className="mb-8 max-w-xl text-center text-lg leading-relaxed">
                 Танцуйте, общайтесь в голосовом чате, делайте совместные проекты
                 ведь это всё возможно у нас
               </p>
               <div className="mb-8 grid items-start justify-center gap-4 sm:grid-flow-col md:gap-6">
+                {/* Подробнее */}
                 <Link
                   className="bg-shine animate-shine grid select-none grid-flow-col items-center justify-center gap-2.5 rounded-full bg-teal-600 px-6 py-3 font-medium text-white outline-teal-700 transition [--shine-color:theme(colors.teal.500/50%)] hover:bg-teal-700 focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-offset-2 active:bg-teal-800"
                   aria-disabled="false"
@@ -61,6 +65,7 @@ export default function Home() {
                   </svg>
                   Подробнее
                 </Link>
+                {/* Скопировать IP */}
                 <button
                   className="ring-black/15 dark:ring-white/15 cz-color-16119028 cz-color-4603711 cz-color-15460325 grid select-none grid-flow-col items-center justify-center gap-2.5 rounded-full bg-zinc-100 px-6 py-3 font-medium text-zinc-900 outline-zinc-700 ring-1 ring-inset transition hover:bg-zinc-200 focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-offset-2 active:bg-zinc-300 dark:bg-zinc-700 dark:text-zinc-100 dark:hover:bg-zinc-600 dark:active:bg-zinc-500"
                   aria-disabled="false"
@@ -99,6 +104,7 @@ export default function Home() {
         </div>
         <div className="h-full w-full">
           <div className="container mx-auto my-12 grid gap-12 px-6">
+            {/* Новости */}
             <div className="rounded-xl bg-blue-100/30 px-6 py-12 dark:bg-blue-900/10">
               <div className="mb-3 grid place-items-center">
                 <Image
@@ -121,6 +127,7 @@ export default function Home() {
                 об новом ивенте
               </p>
             </div>
+            {/* Мир */}
             <div className="rounded-xl bg-green-100/30 px-6 py-12 dark:bg-green-900/10">
               <div className="mb-3 grid place-items-center">
                 <Image
@@ -143,6 +150,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
+            {/* Комьюнити*/}
             <div className="rounded-xl bg-red-100/30 px-6 py-12 dark:bg-red-900/10">
               <div className="mb-3 grid place-items-center">
                 <Image
@@ -166,6 +174,7 @@ export default function Home() {
             </div>
           </div>
         </div>
+        {/* Футер */}
         <Footer></Footer>
       </main>
     </>

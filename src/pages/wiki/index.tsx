@@ -53,9 +53,9 @@ export default function Home() {
                         </Link>
                         <Link
                           className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
-                          href="/wiki/game/bundle"
+                          href="/wiki/game/emotes"
                         >
-                          Мешки
+                          Эмоции
                         </Link>
                         <Link
                           className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
@@ -250,7 +250,7 @@ export default function Home() {
                                           className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
                                           href="/wiki/game/emotes"
                                         >
-                                          Мешки
+                                          Эмоции
                                         </Link>
                                         <Link
                                           className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
@@ -326,7 +326,7 @@ export default function Home() {
                 </div>
                 <div className="prose prose-zinc dark:prose-invert prose-img:rounded-lg prose-headings:font-manrope prose-code:text-teal-600 dark:prose-code:text-teal-500 prose-pre:my-0 prose-pre:bg-transparent prose-pre:p-0 prose-pre:text-zinc-800 dark:prose-pre:text-zinc-200 prose-a:underline-offset-2 prose-a:transition prose-a:text-teal-600 prose-a:decoration-teal-300/50 hover:prose-a:text-teal-700 hover:prose-a:decoration-teal-400/50 dark:prose-a:text-teal-500 dark:prose-a:decoration-teal-700/50 dark:hover:prose-a:text-teal-300 dark:hover:prose-a:decoration-teal-500/50 max-w-full [&_li_p]:my-0">
                   <article>
-                    <p>
+                    <p className="text-zinc-700 dark:text-zinc-200">
                       Приветствуем вас это вики сервера NekoWorlds. Тут можно
                       найти и гайды и ответы на вопросы.
                     </p>
