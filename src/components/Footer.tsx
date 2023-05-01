@@ -7,7 +7,19 @@ export default function Footer() {
       <div className="container mx-auto grid gap-3 px-6">
         <div className="grid grid-cols-2 items-start sm:items-center">
           <div className="grid items-center justify-start gap-5 text-sm sm:grid-flow-col">
-            <Image src="/powerpow.png" alt="powerpow" width="50" height="50" />
+            <svg
+              width="280"
+              height="381"
+              viewBox="0 0 280 381"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-9 w-9 text-teal-500"
+            >
+              <path
+                d="M15.5 72.5V116H0V189H15.5V220H0V292.5H15.5V322.5H30.5V338H74.5V381H131V351H149.5V381H207V338H251V322.5H264.5V294.5H280V220H264.5V206V188.5H280V159.5H264.5V73H249.5V57.5H235.5V0H221V12.5H207.5V27.5H190.5V14.5H88.5V27.5H73V14.5H60V0H44V57.5H29.5V72.5H15.5Z"
+                fill="#CDDFDE"
+              />
+            </svg>
             <div>
               Сервер является проектом <b>NekoWorlds</b>
             </div>
