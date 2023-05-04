@@ -134,27 +134,6 @@ export default function Page() {
                     0 €
                   </div>
                 </div>
-                <div className="grid place-items-center">
-                  <div className="mb-6 grid w-96 gap-5 rounded-lg bg-zinc-50/50 p-5 ring-1 ring-inset ring-black/10 dark:bg-zinc-800/40 dark:ring-zinc-600/30">
-                    <div className="grid gap-5">
-                      <div className="grid gap-2">
-                        <div className="text-sm text-zinc-800 dark:text-zinc-200">
-                          Посетите также
-                        </div>
-                      </div>
-                      <div className="grid gap-2">
-                        <ul className="list-inside list-disc gap-2 rounded-lg px-6 marker:grid lg:list-outside">
-                          <li className="mb-2 text-sm text-teal-400 underline decoration-zinc-800 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10">
-                            <Link href="/rules">Правила</Link>
-                          </li>
-                          <li className="text-sm text-teal-400 underline decoration-zinc-800 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10">
-                            <Link href="/wiki">Вики</Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
