@@ -23,9 +23,13 @@ export default function Page() {
     return (
       <>
         <Head>
-          <title>NekoWorlds</title>
+          <title>NekoWorlds › Профиль</title>
           <meta name="description" content="Ванильный сервер" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta
+            property="og:image"
+            content="https://nekocorp.gq/_next/image?url=%2Fog_image.png&w=256&q=75"
+          />
           <link rel="icon" href="/power.png" />
         </Head>
         <main className="mb-12 mt-24">
@@ -144,7 +148,7 @@ export default function Page() {
   return (
     <>
       <Head>
-        <title>NekoWorlds</title>
+        <title>NekoWorlds › Профиль</title>
         <meta name="description" content="Ванильный сервер" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/power.png" />
