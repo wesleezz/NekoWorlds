@@ -26,6 +26,9 @@ export default function Page() {
           <title>NekoWorlds › Профиль</title>
           <meta name="description" content="Ванильный сервер" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta property="og:title" content="NekoWorlds › Профиль" />
+          <meta property="og:description" content="Ванильный сервер" />
+          <meta property="og:image" content="/og_image.png" />
           <link rel="icon" href="/power.png" />
         </Head>
         <main className="mb-12 mt-24">
@@ -147,6 +150,9 @@ export default function Page() {
         <title>NekoWorlds › Профиль</title>
         <meta name="description" content="Ванильный сервер" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="NekoWorlds › Профиль" />
+        <meta property="og:description" content="Ванильный сервер" />
+        <meta property="og:image" content="/og_image.png" />
         <link rel="icon" href="/power.png" />
       </Head>
       <main className="mb-12 mt-24">

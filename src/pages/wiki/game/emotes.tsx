@@ -14,6 +14,9 @@ export default function Home() {
         <title>NekoWorlds › Вики · Эмоции</title>
         <meta name="description" content="Ванильный сервер" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="NekoWorlds › Вики · Эмоции" />
+        <meta property="og:description" content="Ванильный сервер" />
+        <meta property="og:image" content="/og_image.png" />
         <link rel="icon" href="/power.png" />
       </Head>
       <main className="mb-12 mt-24">

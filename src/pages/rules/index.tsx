@@ -14,13 +14,16 @@ export default function Page() {
         <title>NekoWorlds › Правила</title>
         <meta name="description" content="Ванильный сервер" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta property="og:title" content="NekoWorlds › Правила" />
+        <meta property="og:description" content="Ванильный сервер" />
+        <meta property="og:image" content="/og_image.png" />
         <link rel="icon" href="/power.png" />
       </Head>
-      <main className="mt-24 mb-12">
+      <main className="mb-12 mt-24">
         <Header></Header>
 
         <div className="container mx-auto px-6">
-          <div className="mb-6 text-center text-4xl font-bold dark:text-gray-50 mt-32">
+          <div className="mb-6 mt-32 text-center text-4xl font-bold dark:text-gray-50">
             Правила
           </div>
         </div>
@@ -62,7 +65,7 @@ export default function Page() {
             Discord
           </Link>
         </div>
-        <div className="mt-5 mb-5 px-6 gap-2">
+        <div className="mb-5 mt-5 gap-2 px-6">
           <div className="mx-auto grid max-w-3xl gap-2 px-6 leading-relaxed lg:px-3">
             <p>Данные правила распространяются на весь Minecraft сервер.</p>
             <p>

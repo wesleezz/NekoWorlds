@@ -8,24 +8,31 @@ module.exports = nextConfig;
 module.exports = {
   async redirects() {
     return [
+      // Discord
       {
         source: "/ds",
         destination: "https://discord.com/invite/RAJ4uJ4KZU",
         permanent: true,
       },
+
+      // Telegram
       {
         source: "/tg",
         destination: "https://t.me/necorp",
         permanent: true,
       },
-      {
-        source: "/tt",
-        destination: "https://www.tiktok.com/@nekocorp.gq",
-        permanent: true,
-      },
+
+      // Twitch
       {
         source: "/tw",
         destination: "https://twitch.tv/wesleezz",
+        permanent: true,
+      },
+
+      // TikTok
+      {
+        source: "/tt",
+        destination: "https://www.tiktok.com/@nekocorp.gq",
         permanent: true,
       },
 
@@ -40,9 +47,8 @@ module.exports = {
   images: {
     remotePatterns: [
       {
-        protocol: 'https',
-        hostname: 'cdn.discordapp.com',
-        port: ''
+        protocol: "https",
+        hostname: "cdn.discordapp.com",
       },
     ],
   },
