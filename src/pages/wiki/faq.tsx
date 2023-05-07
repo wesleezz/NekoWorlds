@@ -324,9 +324,25 @@ export default function Home() {
                 </div>
                 <div className="prose prose-zinc dark:prose-invert prose-img:rounded-lg prose-headings:font-manrope prose-code:text-teal-600 dark:prose-code:text-teal-500 prose-pre:my-0 prose-pre:bg-transparent prose-pre:p-0 prose-pre:text-zinc-800 dark:prose-pre:text-zinc-200 prose-a:underline-offset-2 prose-a:transition prose-a:text-teal-600 prose-a:decoration-teal-300/50 hover:prose-a:text-teal-700 hover:prose-a:decoration-teal-400/50 dark:prose-a:text-teal-500 dark:prose-a:decoration-teal-700/50 dark:hover:prose-a:text-teal-300 dark:hover:prose-a:decoration-teal-500/50 max-w-full [&_li_p]:my-0">
                   <article>
+                    <div className="grid">
+                      <figure className="mb-12 grid place-items-center rounded-xl bg-zinc-100/50 p-4 dark:bg-zinc-800/50 md:p-6">
+                        <div className="grid">
+                          <Image
+                            src="/faq.png"
+                            alt="faq"
+                            width="1920"
+                            height="1080"
+                            draggable="true"
+                            data-nimg="1"
+                            className="opacity-1 my-0 h-auto max-h-96 w-auto max-w-full rounded-lg transition duration-500 [grid-area:1/1]"
+                            loading="lazy"
+                          />
+                        </div>
+                      </figure>
+                    </div>
                     <h3
-                      id="first-time"
-                      className="font-inter not-prose group mb-5 mt-5 scroll-mt-40 text-2xl tracking-tight lg:-ml-6 lg:grid lg:scroll-mt-24 lg:grid-cols-[auto_1fr] lg:items-center lg:justify-start lg:gap-2"
+                      id="banal-questions"
+                      className="font-inter not-prose group mb-3 mt-5 scroll-mt-40 text-2xl tracking-tight lg:-ml-6 lg:grid lg:scroll-mt-24 lg:grid-cols-[auto_1fr] lg:items-center lg:justify-start lg:gap-2"
                     >
                       <a
                         className="-m-1.5 hidden p-1.5 text-zinc-800 opacity-0 transition hover:text-teal-600 focus-visible:opacity-100 group-hover:opacity-100 motion-safe:translate-x-2 motion-safe:focus-visible:translate-x-0 motion-safe:group-hover:translate-x-0 dark:text-zinc-200 dark:hover:text-teal-500 lg:block"
@@ -351,7 +367,7 @@ export default function Home() {
                       Банальные вопросы
                       <a
                         className="-mb-0.5 inline-block opacity-0 transition group-hover:opacity-100 lg:hidden"
-                        href="#first-time"
+                        href="#banal-questions"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -370,14 +386,22 @@ export default function Home() {
                         </svg>
                       </a>
                     </h3>
-                    <ul className="mb-5 mt-5 gap-2 rounded-lg">
-                      <li className="">
-                        <h3 className="font-inter not-prose group mb-5 mt-5 scroll-mt-40 text-xl tracking-tight lg:-ml-6 lg:grid lg:scroll-mt-24 lg:grid-cols-[auto_1fr] lg:items-center lg:justify-start lg:gap-2">
-                          Какая версия сервера?
-                        </h3>
-                        <p>Версия: Java Edition 1.19.2</p>
-                      </li>
-                    </ul>
+                    <h2 className="font-inter mb-1 mt-3 grid text-xl tracking-tight">
+                      Какая версия?
+                    </h2>
+                    <p>Java Edition 1.19.2</p>
+                    <h2 className="font-inter mb-1 mt-3 grid text-xl tracking-tight">
+                      Где взять эмоции?
+                    </h2>
+                    <p>
+                      <Link
+                        href="/wiki/game/emotes"
+                        className="text-teal-400 underline decoration-zinc-800 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10"
+                      >
+                        Здесь
+                      </Link>{" "}
+                      вы можете ознакомится с эмоциями
+                    </p>
                   </article>
                 </div>
               </div>

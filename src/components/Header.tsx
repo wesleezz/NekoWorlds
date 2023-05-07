@@ -322,7 +322,7 @@ export default function Header() {
                       ></path>
                     </svg>
                   </button>
-                </div>{" "}
+                </div>
                 <div>
                   <Menu>
                     <Menu.Button

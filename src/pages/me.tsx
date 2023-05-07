@@ -10,7 +10,7 @@ async function handleDiscordSignin() {
 }
 
 const handleCopy = () => {
-  const text = "{session?.user.name}";
+  const text = "${session?.user.name}";
   navigator.clipboard.writeText(text);
 };
 
@@ -100,7 +100,7 @@ export default function Page() {
               <div>
                 <div className="-ml-4 mb-3 grid grid-flow-col items-center justify-between">
                   <button
-                    className="grid select-none grid-flow-col items-center justify-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-zinc-700 outline-zinc-700 transition hover:bg-zinc-200 hover:text-black focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-offset-2 active:bg-zinc-300 dark:text-zinc-400 dark:hover:bg-zinc-500 dark:hover:text-white dark:active:bg-zinc-600"
+                    className="mr-7 grid select-none grid-flow-col items-center justify-center gap-1.5 rounded-lg px-3 py-2 text-sm font-medium text-zinc-700 outline-zinc-700 transition hover:bg-zinc-200 hover:text-black focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-offset-2 active:bg-zinc-300 dark:text-zinc-400 dark:hover:bg-zinc-500 dark:hover:text-white dark:active:bg-zinc-600"
                     id="change-account"
                     onClick={handleSignOut}
                   >
