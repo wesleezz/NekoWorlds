@@ -4,20 +4,24 @@ import Link from "next/link";
 import Header from "../../../components/Header";
 import Footer from "../../../components/Footer";
 import { Menu, Transition } from "@headlessui/react";
-import { Fragment, useEffect, useRef, useState } from "react";
-import { forwardRef } from "react";
+import { Fragment } from "react";
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>NekoWorlds › Вики · Эмоции</title>
-        <meta name="description" content="Ванильный сервер" />
+        <title>Эмоции › Вики · NekoWorlds</title>
+        <meta name="description" content="Ванильный сервер для каждого пространство где уютно и лампово" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="NekoWorlds › Вики · Эмоции" />
-        <meta property="og:description" content="Ванильный сервер" />
-        <meta property="og:image" content="/og_image.png" />
         <link rel="icon" href="/power.png" />
+        <meta property="og:type" content="website" />
+        <meta name="apple-mobile-web-app-title" content="NekoWorlds" />
+        <meta property="og:site_name" content="NekoWorlds" />
+        <meta property="og:title" content="Эмоции › Вики" />
+        <meta property="og:description" content="Ванильный сервер для каждого пространство где уютно и лампово" />
+        <meta property="og:image" content="/og_image.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="/og_image.png" />
       </Head>
       <main className="mb-12 mt-24">
         <Header></Header>
@@ -449,7 +453,7 @@ export default function Home() {
                       <a
                         className="ring-black/15 dark:ring-white/15 dark:hover:bg-zinc-250 grid select-none grid-flow-col items-center justify-center gap-2 rounded-lg bg-zinc-100 px-4 py-2 font-medium text-zinc-900 outline-zinc-700 ring-1 ring-inset transition hover:bg-zinc-200 focus-visible:outline-dashed focus-visible:outline-2 focus-visible:outline-offset-2 active:bg-zinc-300 dark:bg-zinc-700 dark:text-zinc-100 dark:active:bg-zinc-600"
                         aria-disabled="false"
-                        href="https://drive.google.com/uc?id=1K4t8kC2muHCu8PfBvw7zX6NEEtA0vNdz&amp;export=download"
+                        href="https://drive.google.com/file/d/1ikZnaJvmueE2S42GF2hNJ5wT4nzk3Tp8/view?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                       >
@@ -475,7 +479,7 @@ export default function Home() {
                       <figure className="mt-8 grid place-items-center rounded-xl bg-zinc-100/50 p-4 dark:bg-zinc-800/50 md:p-6">
                         <div className="grid">
                           <Image
-                            src="/wiz.gif"
+                            src="/emotes_2.gif"
                             alt="screenshot"
                             width="1920"
                             height="1080"

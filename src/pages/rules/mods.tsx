@@ -11,16 +11,18 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>NekoWorlds › Разрещённые и запрещённые моды</title>
-        <meta name="description" content="Ванильный сервер" />
+        <title>Моды › Правила · NekoWorlds</title>
+        <meta name="description" content="Ванильный сервер для каждого пространство где уютно и лампово" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta
-          property="og:title"
-          content="NekoWorlds › Разрещённые и запрещённые модыа"
-        />
-        <meta property="og:description" content="Ванильный сервер" />
-        <meta property="og:image" content="/og_image.png" />
         <link rel="icon" href="/power.png" />
+        <meta property="og:type" content="website" />
+        <meta name="apple-mobile-web-app-title" content="NekoWorlds" />
+        <meta property="og:site_name" content="NekoWorlds" />
+        <meta property="og:title" content="Моды › Правила" />
+        <meta property="og:description" content="Ванильный сервер для каждого пространство где уютно и лампово" />
+        <meta property="og:image" content="/og_image.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="/og_image.png" />
       </Head>
       <main className="mb-12 mt-24">
         <Header></Header>
@@ -316,14 +318,20 @@ export default function Home() {
                         <a href="https://optifine.com">OptiFine</a>
                       </li>
                       <li className="mb-2 text-teal-400 underline decoration-zinc-800 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10">
+                        <a href="https://www.curseforge.com/minecraft/mc-mods/optifabric">
+                          OptiFabric
+                        </a>
+                      </li>
+                      <li className="mb-2 text-teal-400 underline decoration-zinc-800 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10">
+                        <a href="https://modrinth.com/mod/sodium">Sodium</a>
+                      </li>
+                      <li className="mb-2 text-teal-400 underline decoration-zinc-800 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10">
                         <a href="https://modrinth.com/mod/ok-zoomer">
                           Ok Zoomer
                         </a>
                       </li>
                       <li className="mb-2 text-teal-400 underline decoration-zinc-800 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10">
-                        <a href="https://modrinth.com/mod/fabric-language-kotlin">
-                          Fabric Laungage Kotlin
-                        </a>
+                        <a href="https://modrinth.com/mod/zoomify">Zoomify</a>
                       </li>
                       <li className="mb-2 text-teal-400 underline decoration-zinc-800 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10">
                         <a href="https://modrinth.com/mod/3dskinlayers">
@@ -341,11 +349,21 @@ export default function Home() {
                         </a>
                       </li>
                       <li className="mb-2 text-teal-400 underline decoration-zinc-800 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10">
-                        <a href="https://modrinth.com/mod/Exordium">Exordium</a>
+                        <a href="https://modrinth.com/mod/mouse-wheelie">
+                          Mouse Wheelie
+                        </a>
+                      </li>
+                      <li className="mb-2 text-teal-400 underline decoration-zinc-800 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10">
+                        <a href="https://modrinth.com/mod/exordium">Exordium</a>
                       </li>
                       <li className="mb-2 text-teal-400 underline decoration-zinc-800 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10">
                         <a href="https://modrinth.com/mod/blur-fabric">
                           Blur (Fabric)
+                        </a>
+                      </li>
+                      <li className="mb-2 text-teal-400 underline decoration-zinc-800 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10">
+                        <a href="https://modrinth.com/mod/starlight">
+                          Starlight (Fabric)
                         </a>
                       </li>
                       <li className="mb-2 text-teal-400 underline decoration-zinc-800 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10">
@@ -435,20 +453,15 @@ export default function Home() {
                       </a>
                     </h3>
                     <ul className="mb-5 mt-5 list-inside list-disc gap-2 rounded-lg px-6 marker:grid lg:list-outside">
-                      <li className="mb-2 text-teal-400 underline decoration-zinc-800 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10">
-                        <a href="https://modrinth.com/mod/litematica-printer">
-                          Litematica Printer
-                        </a>
+                      <li className="mb-2 text-zinc-700 dark:text-zinc-200">
+                        Модификации, выполняющие действия за игрока (ИИ, принтер
+                        и так далее)
                       </li>
-                      <li className="mb-2 text-teal-400 underline decoration-zinc-800 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10">
-                        <a href="https://modrinth.com/mod/command-macros">
-                          Command Macros
-                        </a>
+                      <li className="mb-2 text-zinc-700 dark:text-zinc-200">
+                        Freecam
                       </li>
-                      <li className="text-teal-400 underline decoration-zinc-800 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10">
-                        <a href="https://modrinth.com/mod/gamma-utils">
-                          Gamma Utils
-                        </a>
+                      <li className="mb-2 text-zinc-700 dark:text-zinc-200">
+                        Cmdcam
                       </li>
                     </ul>
                   </article>

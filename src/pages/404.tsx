@@ -7,13 +7,18 @@ export default function PageNotFound() {
   return (
     <>
       <Head>
-        <title>Cтраница не найдена</title>
-        <meta name="description" content="Ванильный сервер" />
+        <title>Cтраница не найдена · NekoWorlds</title>
+        <meta name="description" content="Ванильный сервер для каждого пространство где уютно и лампово" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta property="og:title" content="Cтраница не найдена" />
-        <meta property="og:description" content="Ванильный сервер" />
-        <meta property="og:image" content="/og_image.png" />
         <link rel="icon" href="/power.png" />
+        <meta property="og:type" content="website" />
+        <meta name="apple-mobile-web-app-title" content="NekoWorlds" />
+        <meta property="og:site_name" content="NekoWorlds" />
+        <meta property="og:title" content="Cтраница не найдена" />
+        <meta property="og:description" content="Ванильный сервер для каждого пространство где уютно и лампово" />
+        <meta property="og:image" content="/og_image.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="/og_image.png" />
       </Head>
       <main className="mb-12 mt-24">
         <Header></Header>

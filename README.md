@@ -7,16 +7,10 @@
 # Информация
 
 Это веб-сайт приватного сервера **NekoWorlds** <br>
-сделано на Next.js <br>
+сделано на [Next.js](https://nextjs.org) <br>
 
 # Использованные сервисы
 
 Всё использованные сервисы для создания этого сайта: <br>
-[![My Skills](https://skillicons.dev/icons?i=vercel,netlify,tailwind,supabase,github,vscode,idea)](https://skillicons.dev)
 
-# Контакты
-
-**Wesleezz69**<br>
-[Discord](https://discord.com/users/580079922614108185)<br>
-[Telegram](https://t.me/wesleezz)<br>
-[Сайт](https://wesleezz.netlify.app)
+[![My Skills](https://skillicons.dev/icons?i=vercel,netlify,tailwind,github,vscode,idea)](https://skillicons.dev)
