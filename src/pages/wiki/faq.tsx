@@ -11,14 +11,20 @@ export default function Home() {
     <>
       <Head>
         <title>ЧаВо › Вики · NekoWorlds</title>
-        <meta name="description" content="Ванильный сервер для каждого пространство где уютно и лампово" />
+        <meta
+          name="description"
+          content="Ванильный сервер для каждого пространство где уютно и лампово"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/power.png" />
         <meta property="og:type" content="website" />
         <meta name="apple-mobile-web-app-title" content="NekoWorlds" />
         <meta property="og:site_name" content="NekoWorlds" />
         <meta property="og:title" content="ЧаВо › Вики" />
-        <meta property="og:description" content="Ванильный сервер для каждого пространство где уютно и лампово" />
+        <meta
+          property="og:description"
+          content="Ванильный сервер для каждого пространство где уютно и лампово"
+        />
         <meta property="og:image" content="/og_image.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:image" content="/og_image.png" />
@@ -53,7 +59,7 @@ export default function Home() {
                       <div className="grid select-none">
                         <Link
                           className="relative -ml-3 grid grid grid-flow-col grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
-                          href="/wiki/game/resource-packs"
+                          href="/wiki/game/rp"
                         >
                           Ресурспак
                           <div className="h-1.5 w-1.5 rounded-full bg-green-500/75" />
@@ -248,7 +254,7 @@ export default function Home() {
                                       <div className="grid select-none">
                                         <Link
                                           className="relative -ml-3 grid grid grid-flow-col grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
-                                          href="/wiki/game/badges"
+                                          href="/wiki/game/rp"
                                         >
                                           Ресурспак
                                           <div className="h-1.5 w-1.5 rounded-full bg-green-500/75" />
