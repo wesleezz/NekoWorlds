@@ -1,4 +1,4 @@
-// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+// NWAPI ( NekoWorlds API )
 
 import type { NextApiRequest, NextApiResponse } from "next";
 

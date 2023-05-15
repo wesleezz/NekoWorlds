@@ -40,17 +40,29 @@ export default function Home() {
           <div className="motion-safe:animate-homeCirclesContainer children:h-[400px] children:w-[400px] children:animate-homeCircle children:rounded-full children:blur-3xl children:[grid-area:1/1] grid h-full w-full grid-rows-1 place-items-center [grid-area:1/1]">
             <div className="motion-safe:animate-homeText relative z-30 grid place-items-center px-8 pb-24 pt-32 [grid-area:1/1] lg:pb-32 lg:pt-56">
               {/* Заголовок */}
+              <h1 className="font-manrope mx-auto -mb-8 -mt-8 max-w-5xl text-center text-5xl font-extrabold leading-[1.1] tracking-tighter line-through opacity-25 dark:opacity-25 md:text-6xl">
+                Ванильный сервер{" "}
+                <span className="text-teal-600 line-through dark:text-teal-400">
+                  для всех
+                </span>
+              </h1>
               <h1 className="font-manrope mx-auto mb-6 max-w-5xl text-center text-5xl font-extrabold leading-[1.1] tracking-tighter md:text-6xl">
+                Межсезонье
+              </h1>
+              <p className="mb-8 max-w-xl text-center text-lg leading-relaxed">
+                3 Сезон подошёл к концу межсезонье продлиться ~3 месяца
+              </p>
+              {/* <h1 className="font-manrope mx-auto mb-6 max-w-5xl text-center text-5xl font-extrabold leading-[1.1] tracking-tighter md:text-6xl">
                 Ванильный сервер{" "}
                 <span className="text-teal-600 dark:text-teal-400">
                   для всех
                 </span>
-              </h1>
+              </h1> */}
               {/* Описание */}
-              <p className="mb-8 max-w-xl text-center text-lg leading-relaxed">
+              {/*<p className="mb-8 max-w-xl text-center text-lg leading-relaxed">
                 Танцуйте, общайтесь в голосовом чате, делайте совместные проекты
                 ведь это всё возможно у нас
-              </p>
+              </p> */}
               <div className="mb-8 grid items-start justify-center gap-4 sm:grid-flow-col md:gap-6">
                 {/* Подробнее */}
                 <Link
@@ -164,7 +176,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            {/* Комьюнити*/}
+            {/* Комьюнити */}
             <div className="rounded-xl bg-red-100/30 px-6 py-12 dark:bg-red-900/10">
               <div className="mb-3 grid place-items-center">
                 <Image
