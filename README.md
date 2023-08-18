@@ -7,9 +7,9 @@
 
 # Полезное
 
-[📖 **Правила**](https://github.com/wesleezz/nekoworlds/blob/main/src/pages/rules)
+[📖 Правила](https://github.com/wesleezz/nekoworlds/blob/main/src/pages/rules)
 
-[🧩 **Разрешенные и запрещённые модификации**](https://github.com/wesleezz/nekoworlds/blob/main/src/pages/rules/mods)
+[🧩 Разрешенные и запрещённые модификации](https://github.com/wesleezz/nekoworlds/blob/main/src/pages/rules/mods)
 
 # Сервисы
 
