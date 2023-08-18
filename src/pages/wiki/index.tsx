@@ -37,7 +37,12 @@ export default function Home() {
                     style={{ scrollMargin: "calc(50vh - 2.25rem)" }}
                   >
                     Введение
-                    <div className="h-1.5 w-1.5 rounded-full bg-green-500/75" />
+                  </Link>
+                  <Link
+                    className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+                    href="/wiki/history"
+                  >
+                    История
                   </Link>
                   <Link
                     className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
@@ -52,11 +57,10 @@ export default function Home() {
                     <div className="ml-4">
                       <div className="grid select-none">
                         <Link
-                          className="relative -ml-3 grid grid grid-flow-col grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+                          className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
                           href="/wiki/game/rp"
                         >
                           Ресурспак
-                          <div className="h-1.5 w-1.5 rounded-full bg-green-500/75" />
                         </Link>
                         <Link
                           className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
@@ -88,28 +92,6 @@ export default function Home() {
                         >
                           Кастомизация стендов
                         </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="mb-3 mt-4 grid">
-                    <div className="font-manrope mb-3 font-bold">Профиль</div>
-                    <div className="ml-4">
-                      <div className="grid select-none">
-                        <div className="mb-1 mt-1 grid">
-                          <div className="font-manrope mb-2 text-sm font-bold text-zinc-700 dark:text-zinc-200">
-                            Интеграции
-                          </div>
-                          <div className="ml-4">
-                            <div className="grid select-none">
-                              <Link
-                                className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
-                                href="/wiki/profile/integrations/discord"
-                              >
-                                Discord
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -232,7 +214,12 @@ export default function Home() {
                                     }}
                                   >
                                     Введение
-                                    <div className="h-1.5 w-1.5 rounded-full bg-green-500/75" />
+                                  </Link>
+                                  <Link
+                                    className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+                                    href="/wiki/history"
+                                  >
+                                    История
                                   </Link>
                                   <Link
                                     className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"

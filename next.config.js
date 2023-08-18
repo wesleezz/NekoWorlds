@@ -22,6 +22,13 @@ module.exports = {
         permanent: true,
       },
 
+      // Support
+      {
+        source: "/support",
+        destination: "https://t.me/newwwobot",
+        permanent: true,
+      },
+
       // Twitch
       {
         source: "/tw",
@@ -46,9 +53,22 @@ module.exports = {
   },
   images: {
     remotePatterns: [
+      // Discord assets
       {
         protocol: "https",
         hostname: "cdn.discordapp.com",
+      },
+
+      // Spotify assets
+      {
+        protocol: "https",
+        hostname: "i.scdn.co",
+      },
+
+      // GitHub assets
+      {
+        protocol: "https",
+        hostname: "raw.githubusercontent.com",
       },
     ],
   },

@@ -38,11 +38,16 @@ export default function Home() {
               <div className="lg:top-18 -ml-6 h-[calc(100vh-4.5rem)] overflow-y-auto px-6 py-8 [--scrollbar-size:theme(width.3)] lg:sticky">
                 <div className="grid select-none">
                   <Link
-                    className="relative -ml-3 grid grid grid-flow-col grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+                    className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
                     href="/wiki"
                   >
                     Введение
-                    <div className="h-1.5 w-1.5 rounded-full bg-green-500/75" />
+                  </Link>
+                  <Link
+                    className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+                    href="/wiki/history"
+                  >
+                    История
                   </Link>
                   <Link
                     className="relative -ml-3 grid grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm font-medium text-teal-500 transition hover:bg-zinc-100 dark:text-teal-400 dark:hover:bg-zinc-800"
@@ -58,11 +63,10 @@ export default function Home() {
                     <div className="ml-4">
                       <div className="grid select-none">
                         <Link
-                          className="relative -ml-3 grid grid grid-flow-col grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+                          className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
                           href="/wiki/game/rp"
                         >
                           Ресурспак
-                          <div className="h-1.5 w-1.5 rounded-full bg-green-500/75" />
                         </Link>
                         <Link
                           className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
@@ -94,28 +98,6 @@ export default function Home() {
                         >
                           Кастомизация стендов
                         </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="mb-3 mt-4 grid">
-                    <div className="font-manrope mb-3 font-bold">Профиль</div>
-                    <div className="ml-4">
-                      <div className="grid select-none">
-                        <div className="mb-1 mt-1 grid">
-                          <div className="font-manrope mb-2 text-sm font-bold text-zinc-700 dark:text-zinc-200">
-                            Интеграции
-                          </div>
-                          <div className="ml-4">
-                            <div className="grid select-none">
-                              <Link
-                                className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
-                                href="/wiki/profile/integrations/discord"
-                              >
-                                Discord
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
                       </div>
                     </div>
                   </div>
@@ -230,11 +212,16 @@ export default function Home() {
                                     Другие страницы
                                   </div>
                                   <Link
-                                    className="relative -ml-3 grid grid grid-flow-col grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+                                    className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
                                     href="/wiki"
                                   >
                                     Введение
-                                    <div className="h-1.5 w-1.5 rounded-full bg-green-500/75" />
+                                  </Link>
+                                  <Link
+                                    className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
+                                    href="/wiki/history"
+                                  >
+                                    История
                                   </Link>
                                   <Link
                                     className="relative -ml-3 grid grid grid-flow-col grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm font-medium text-teal-500 transition hover:bg-zinc-100 dark:text-teal-400 dark:hover:bg-zinc-800"
@@ -257,7 +244,6 @@ export default function Home() {
                                           href="/wiki/game/rp"
                                         >
                                           Ресурспак
-                                          <div className="h-1.5 w-1.5 rounded-full bg-green-500/75" />
                                         </Link>
                                         <Link
                                           className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
@@ -292,30 +278,6 @@ export default function Home() {
                                       </div>
                                     </div>
                                   </div>
-                                  <div className="mb-3 mt-4 grid">
-                                    <div className="font-manrope mb-3 font-bold">
-                                      Профиль
-                                    </div>
-                                    <div className="ml-4">
-                                      <div className="grid select-none">
-                                        <div className="mb-1 mt-1 grid">
-                                          <div className="font-manrope mb-2 text-sm font-bold text-zinc-700 dark:text-zinc-200">
-                                            Интеграции
-                                          </div>
-                                          <div className="ml-4">
-                                            <div className="grid select-none">
-                                              <Link
-                                                className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
-                                                href="/wiki/profile/integrations/discord"
-                                              >
-                                                Discord
-                                              </Link>
-                                            </div>
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
                                 </div>
                               </div>
                             )}
@@ -334,22 +296,6 @@ export default function Home() {
                 </div>
                 <div className="prose prose-zinc dark:prose-invert prose-img:rounded-lg prose-headings:font-manrope prose-code:text-teal-600 dark:prose-code:text-teal-500 prose-pre:my-0 prose-pre:bg-transparent prose-pre:p-0 prose-pre:text-zinc-800 dark:prose-pre:text-zinc-200 prose-a:underline-offset-2 prose-a:transition prose-a:text-teal-600 prose-a:decoration-teal-300/50 hover:prose-a:text-teal-700 hover:prose-a:decoration-teal-400/50 dark:prose-a:text-teal-500 dark:prose-a:decoration-teal-700/50 dark:hover:prose-a:text-teal-300 dark:hover:prose-a:decoration-teal-500/50 max-w-full [&_li_p]:my-0">
                   <article>
-                    <div className="grid">
-                      <figure className="mb-12 grid place-items-center rounded-xl bg-zinc-100/50 p-4 dark:bg-zinc-800/50 md:p-6">
-                        <div className="grid">
-                          <Image
-                            src="/faq.png"
-                            alt="faq"
-                            width="1920"
-                            height="1080"
-                            draggable="true"
-                            data-nimg="1"
-                            className="opacity-1 my-0 h-auto max-h-96 w-auto max-w-full rounded-lg transition duration-500 [grid-area:1/1]"
-                            loading="lazy"
-                          />
-                        </div>
-                      </figure>
-                    </div>
                     <h3
                       id="banal-questions"
                       className="font-inter not-prose group mb-3 mt-5 scroll-mt-40 text-2xl tracking-tight lg:-ml-6 lg:grid lg:scroll-mt-24 lg:grid-cols-[auto_1fr] lg:items-center lg:justify-start lg:gap-2"
@@ -396,22 +342,7 @@ export default function Home() {
                         </svg>
                       </a>
                     </h3>
-                    <h2 className="font-inter mb-1 mt-3 grid text-xl tracking-tight">
-                      Какая версия?
-                    </h2>
-                    <p>Java Edition 1.19.2</p>
-                    <h2 className="font-inter mb-1 mt-3 grid text-xl tracking-tight">
-                      Где взять эмоции?
-                    </h2>
-                    <p>
-                      <Link
-                        href="/wiki/game/emotes"
-                        className="text-teal-400 underline decoration-zinc-800 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10"
-                      >
-                        Здесь
-                      </Link>{" "}
-                      вы можете ознакомится с эмоциями
-                    </p>
+                    {/* TODO: доделать наконец-то ЧаВо */}
                   </article>
                 </div>
               </div>

@@ -1,16 +1,11 @@
-<div align="center">
+<div>
 	<p>
-		<a href="https://nekocorp.gq"><img src="https://i.ibb.co/BzV3rmv/2.png" width="546" alt="NekoWorlds" /></a>
+		<a href="https://nekocorp.gq"><img src="https://nekocorp.gq//_next/image?url=%2Fpower.png&amp;w=640&amp;q=75" width="100" alt="NekoWorlds" /></a>
 	<p>
 </div>
 
-# Информация
+## Полезное
 
-Это веб-сайт приватного сервера **NekoWorlds** <br>
-сделано на [Next.js](https://nextjs.org) <br>
+[📖 Правила](https://github.com/wesleezz/nekoworlds/blob/main/src/pages/rules)
 
-# Использованные сервисы
-
-Всё использованные сервисы для создания этого сайта: <br>
-
-[![My Skills](https://skillicons.dev/icons?i=vercel,netlify,tailwind,github,vscode,idea)](https://skillicons.dev)
+[🧩 Разрешенные и запрещенные модификации](https://github.com/wesleezz/nekoworlds/blob/main/src/pages/rules/mods)
