@@ -242,7 +242,6 @@ export default function Home() {
                                       <div className="grid select-none">
                                         <Link
                                           className="relative -ml-3 grid grid grid-flow-col grid-flow-col items-start items-center justify-start gap-2 rounded-lg px-3 py-2 text-sm font-medium text-teal-500 transition hover:bg-zinc-100 dark:text-teal-400 dark:hover:bg-zinc-800"
-                                    aria-current="page"
                                           aria-current="page"
                                           href="/wiki/game/rp"
                                           style={{
@@ -302,7 +301,7 @@ export default function Home() {
                 </div>
                 <div className="mb-6 grid w-full items-center justify-start gap-4 lg:grid-flow-col lg:justify-between">
                   <h1 className="font-manrope text-3xl font-bold tracking-tight">
-                    Ресурпак
+                    Ресурcпак
                   </h1>
                   <div className="grid justify-start text-sm font-semibold">
                     <div className="-my-1 rounded-full bg-green-100/50 px-3 py-1 text-green-800 ring-1 ring-inset ring-green-300/50 dark:bg-green-700/20 dark:text-green-500 dark:ring-green-700/20">
