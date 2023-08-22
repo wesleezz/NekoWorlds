@@ -141,8 +141,8 @@ dependencies:
     specifier: ^1.57.1
     version: 1.57.1
   supabase:
-    specifier: ^1.46.5
-    version: 1.46.5
+    specifier: ^1.88.0
+    version: 1.88.0
   tailwindcss:
     specifier: ^3.3.1
     version: 3.3.1(postcss@8.4.21)
@@ -6621,6 +6621,11 @@ packages:
     engines: {node: '>=8'}
     dev: false
 
+  /minipass@5.0.0:
+    resolution: {integrity: sha512-3FnjYuehv9k6ovOEbyOswadCDPX1piCfhV8ncmYtHOjuPwylVWsghTLo7rabjC3Rx5xD4HDx8Wm1xnMF7S5qFQ==}
+    engines: {node: '>=8'}
+    dev: false
+
   /minizlib@2.1.2:
     resolution: {integrity: sha512-bAxsR8BVfj60DWXHE3u30oHzfl4G7khkSuPW+qvpd7jFRHm7dLxOjUk1EHACJ/hxLY8phGJ0YhYHZo7jil7Qdg==}
     engines: {node: '>= 8'}
@@ -8876,14 +8881,15 @@ packages:
       ts-interface-checker: 0.1.13
     dev: false
 
-  /supabase@1.46.5:
-    resolution: {integrity: sha512-N1BObR6JYubMqjacpvJ9/WixEBsPS6KSCqVxg4D+X3SLcqP3p05ppjF2he/m9b48KwNgohZ2eno5Hes8GxtNtg==}
+  /supabase@1.88.0:
+    resolution: {integrity: sha512-eyfgSkLVauPRFOiTtddC/v3TFPTTlOwSur5Qh2s/kR/ZWMCySEYQ2E1+lsGvMSwP+SYpaDrYUICkb5CiaIZKow==}
+    engines: {npm: '>=8'}
     hasBin: true
     requiresBuild: true
     dependencies:
       bin-links: 4.0.1
       node-fetch: 3.3.1
-      tar: 6.1.13
+      tar: 6.1.15
     dev: false
 
   /superstatic@9.0.3:
@@ -9017,6 +9023,18 @@ packages:
       chownr: 2.0.0
       fs-minipass: 2.1.0
       minipass: 4.2.8
+      minizlib: 2.1.2
+      mkdirp: 1.0.4
+      yallist: 4.0.0
+    dev: false
+
+  /tar@6.1.15:
+    resolution: {integrity: sha512-/zKt9UyngnxIT/EAGYuxaMYgOIJiP81ab9ZfkILq4oNLPFX50qyYmu7jRj9qeXoxmJHjGlbH0+cm2uy1WCs10A==}
+    engines: {node: '>=10'}
+    dependencies:
+      chownr: 2.0.0
+      fs-minipass: 2.1.0
+      minipass: 5.0.0
       minizlib: 2.1.2
       mkdirp: 1.0.4
       yallist: 4.0.0
