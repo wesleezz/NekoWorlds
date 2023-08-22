@@ -173,8 +173,8 @@ devDependencies:
     specifier: ^4.13.0
     version: 4.13.0
   qwik-speak:
-    specifier: ^0.5.0
-    version: 0.5.0(@builder.io/qwik@0.101.0)
+    specifier: ^0.11.0
+    version: 0.11.0(@builder.io/qwik@0.101.0)
   typescript:
     specifier: ^5.0.2
     version: 5.0.2
@@ -7852,12 +7852,12 @@ packages:
     engines: {node: '>=10'}
     dev: false
 
-  /qwik-speak@0.5.0(@builder.io/qwik@0.101.0):
-    resolution: {integrity: sha512-VbewbvVaO05GWyRKjwpQietlXenuKGFCLjoOfGGXx4IwBAvP3uYi3RolFTbjKV1x8Aj+/jtMj7y3zrOCO6YFDA==}
-    engines: {node: '>=16'}
+  /qwik-speak@0.11.0(@builder.io/qwik@0.101.0):
+    resolution: {integrity: sha512-3xLsBiDiNmK8SAkdZD5vnLSftqrGMEkjNqOYj7TsUyI8ow8pZqcnM1wUls9uAjwptDswz/7XKjVniR5v8Ksodw==}
+    engines: {node: '>=16.0.0'}
     hasBin: true
     peerDependencies:
-      '@builder.io/qwik': '>=0.15.1'
+      '@builder.io/qwik': '>=0.101.0'
     dependencies:
       '@builder.io/qwik': 0.101.0(undici@5.22.0)
     dev: true
