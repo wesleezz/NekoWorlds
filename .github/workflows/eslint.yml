@@ -32,8 +32,8 @@ jobs:
 
       - name: Install ESLint
         run: |
-          pnpm add --save-dev eslint
-          pnpm add @microsoft/eslint-formatter-sarif --save-dev
+          pnpm install
+          pnpm install -g eslint
 
       - name: Run ESLint
         run: npx eslint .
