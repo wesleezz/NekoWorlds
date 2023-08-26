@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@auth/core':
-    specifier: ^0.4.0
-    version: 0.4.0
+    specifier: ^0.12.0
+    version: 0.12.0
   '@builder.io/qwik':
     specifier: ^0.101.0
     version: 0.101.0(undici@5.22.0)
@@ -190,8 +190,8 @@ packages:
       js-yaml: 4.1.0
     dev: false
 
-  /@auth/core@0.4.0:
-    resolution: {integrity: sha512-wHVljvVGPmKSjlxQUYZCOL4GGe26YqhT351sA2REE43YskaqRMYh1TVjBxpXcdG8/P8bw2DsHgl+aBEV3P5+KQ==}
+  /@auth/core@0.12.0:
+    resolution: {integrity: sha512-XYipdAc/nKu014VOgpcPyLlj1ghWlnwyloaB1UjQd9ElZRZQ9YpSizzXGLON23t/a0FyabOBBl0/awD2tW58Rg==}
     peerDependencies:
       nodemailer: ^6.8.0
     peerDependenciesMeta:
