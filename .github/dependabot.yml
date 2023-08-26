@@ -8,5 +8,9 @@ updates:
   - package-ecosystem: npm # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: daily
-    open-pull-requests-limit: 5
+      interval: "daily"
+    target-branch: "updates"
+    commit-message:
+      prefix: "📚"
+    open-pull-requests-limit: 69
+    
