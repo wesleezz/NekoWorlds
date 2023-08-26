@@ -33,8 +33,8 @@ dependencies:
     specifier: ^0.2.1
     version: 0.2.1(@supabase/supabase-js@2.15.0)(next-auth@4.21.1)
   '@next/font':
-    specifier: ^13.1.1
-    version: 13.1.1
+    specifier: ^13.4.19
+    version: 13.4.19
   '@next/mdx':
     specifier: ^13.1.2
     version: 13.1.2(@mdx-js/loader@2.2.1)(@mdx-js/react@2.2.1)
@@ -741,8 +741,8 @@ packages:
       glob: 7.1.7
     dev: false
 
-  /@next/font@13.1.1:
-    resolution: {integrity: sha512-amygRorS05hYK1/XQRZo5qBl7l2fpHnezeKU/cNveWU5QJg+sg8gMGkUXHtvesNKpiKIJshBRH1TzvO+2sKpvQ==}
+  /@next/font@13.4.19:
+    resolution: {integrity: sha512-yOuSRYfqksWcaG/sATr1/DEGvvI8gnmAAnQCCZ0+L9p4Pio3/DMu71J56YHh9Hz84LDN4tMVzuux0ssCuM50sA==}
     dev: false
 
   /@next/mdx@13.1.2(@mdx-js/loader@2.2.1)(@mdx-js/react@2.2.1):
