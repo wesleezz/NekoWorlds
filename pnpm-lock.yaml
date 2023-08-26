@@ -102,8 +102,8 @@ dependencies:
     specifier: ^13.2.2
     version: 13.2.2(i18next@22.4.13)(next@13.1.1)(react-i18next@12.2.0)(react@18.2.0)
   next-intl:
-    specifier: ^2.10.4
-    version: 2.10.4(next@13.1.1)(react@18.2.0)
+    specifier: ^2.20.0
+    version: 2.20.0(next@13.1.1)(react@18.2.0)
   next-themes:
     specifier: ^0.2.1
     version: 0.2.1(next@13.1.1)(react-dom@18.2.0)(react@18.2.0)
@@ -1716,10 +1716,6 @@ packages:
     engines: {node: '>=6.5'}
     dependencies:
       event-target-shim: 5.0.1
-    dev: false
-
-  /accept-language-parser@1.5.0:
-    resolution: {integrity: sha512-QhyTbMLYo0BBGg1aWbeMG4ekWtds/31BrEU+DONOg/7ax23vxpL03Pb7/zBmha2v7vdD3AyzZVWBVGEZxKOXWw==}
     dev: false
 
   /accepts@1.3.8:
@@ -6765,17 +6761,18 @@ packages:
       react-i18next: 12.2.0(i18next@22.4.13)(react-dom@18.2.0)(react@18.2.0)
     dev: false
 
-  /next-intl@2.10.4(next@13.1.1)(react@18.2.0):
-    resolution: {integrity: sha512-qutpLRdu8YEczjXmdiDh2GZ0+vsJnL4qD25dlQDICP3glwNKZAiY348C6DYM5dYTL/2i19C5pggRAAPuv0qyEg==}
+  /next-intl@2.20.0(next@13.1.1)(react@18.2.0):
+    resolution: {integrity: sha512-zeGod4WuS/j8dhDM1eLlt+GTCqqq1b09l/eHxUWQjGrK87BeN+crKasHjZWMNm38g0ddWpBW6i9KDZcTn8/p1A==}
     engines: {node: '>=10'}
     peerDependencies:
       next: ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
     dependencies:
-      accept-language-parser: 1.5.0
+      '@formatjs/intl-localematcher': 0.2.32
+      negotiator: 0.6.3
       next: 13.1.1(react-dom@18.2.0)(react@18.2.0)(sass@1.57.1)
       react: 18.2.0
-      use-intl: 2.13.1(react@18.2.0)
+      use-intl: 2.20.0(react@18.2.0)
     dev: false
 
   /next-mdx-remote@4.4.1(react-dom@18.2.0)(react@18.2.0):
@@ -9537,8 +9534,8 @@ packages:
     resolution: {integrity: sha512-H6dnQ/yPAAVzMQRvEvyz01hhfQL5qRWSEt7BX8t9DqnPw9BjMb64fjIRq76Uvf1hkHp+mTZvEVJ5guXOT0Xqaw==}
     dev: false
 
-  /use-intl@2.13.1(react@18.2.0):
-    resolution: {integrity: sha512-za8vb9UtKyFuDWbc+Iceqnz1KOAGwm9cTaBjW5af6e7ZcAdwADUwsz9M/8M9VDl5gKKQ/o+3TJcKdi+ieOKhfQ==}
+  /use-intl@2.20.0(react@18.2.0):
+    resolution: {integrity: sha512-h9aOveHyqUSNshPvWSx88f0ny0w/F4kTG3oM1lGZYTlfK7vE6Ic9vVM7TDn/7idD3v6b2Vasp7q0le/opn6j/Q==}
     engines: {node: '>=10'}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0
