@@ -193,7 +193,7 @@ export default function Home() {
                                   </div>
                                   <Link
                                     className="relative -ml-3 grid grid-flow-col items-start justify-start rounded-lg px-3 py-2 text-sm text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
-                                    href="https://attachment.zip"
+                                    href="https://youtu.be/xvFZjo5PgG0?si=l7rYogbCBIVm0L1u"
                                   >
                                     Незнаю не придумал
                                   </Link>
@@ -879,7 +879,7 @@ export default function Home() {
                                       d="M8 7H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2h-3m-1 4l-3 3m0 0l-3-3m3 3V4"
                                     />
                                   </svg>
-                                  <Link href="https://attachment.zip">Подробнее</Link>
+                                  <Link href="https://youtu.be/xvFZjo5PgG0?si=l7rYogbCBIVm0L1u">Подробнее</Link>
                                 </button>
                               </div>
                             </div>
@@ -920,7 +920,7 @@ export default function Home() {
                       <li>
                         <a
                           className="-ml-3 ml-7 grid cursor-pointer items-center justify-start rounded-lg px-3 py-2 text-left text-zinc-600 transition hover:bg-zinc-100 dark:text-zinc-300 dark:hover:bg-zinc-800"
-                          href="https://attachment.zip"
+                          href="https://youtu.be/xvFZjo5PgG0?si=l7rYogbCBIVm0L1u"
                         >
                           <div className="col-start-2">
                             Незнаю не придумал{" "}
