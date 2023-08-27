@@ -108,8 +108,8 @@ dependencies:
     specifier: ^0.2.1
     version: 0.2.1(next@13.1.1)(react-dom@18.2.0)(react@18.2.0)
   next-translate:
-    specifier: ^2.0.3
-    version: 2.0.3(next@13.1.1)(react@18.2.0)
+    specifier: ^2.0.6
+    version: 2.0.6(next@13.1.1)(react@18.2.0)
   nextra:
     specifier: ^2.2.3
     version: 2.2.3(next@13.1.1)(react-dom@18.2.0)(react@18.2.0)
@@ -6933,8 +6933,8 @@ packages:
     resolution: {integrity: sha512-CXdUiJembsNjuToQvxayPZF9Vqht7hewsvy2sOWafLvi2awflj9mOC6bHIg50orX8IJvWKY9wYQ/zB2kogPslQ==}
     dev: false
 
-  /next-translate@2.0.3(next@13.1.1)(react@18.2.0):
-    resolution: {integrity: sha512-OfbFqiO/+3j1Ew2q3AdGMBSW6xDlWKn5P4+xZ3DoaiN6wg7yq9T877bBQnOH7Fn3+3JZQ7QF+Yos1I/nSAkrgA==}
+  /next-translate@2.0.6(next@13.1.1)(react@18.2.0):
+    resolution: {integrity: sha512-sfyV4q+oNFnc9IWB/QmJpU9Du3gOj9C5/6zOmOVGbzOQTseafxGNXwkqwhdRooyKiBDrSXU6tlDbUw7wQDbkNg==}
     engines: {node: '>=14.15.0'}
     peerDependencies:
       next: '>= 10.0.0'
