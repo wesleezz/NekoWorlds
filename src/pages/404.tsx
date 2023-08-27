@@ -7,7 +7,7 @@ export default function PageNotFound() {
   return (
     <>
       <Head>
-        <title>Cтраница не найдена · NekoWorlds</title>
+        <title>Cтраница не найдена</title>
         <meta
           name="description"
           content="Ванильный сервер для каждого пространство где уютно и лампово"
@@ -34,7 +34,7 @@ export default function PageNotFound() {
             <div className="grid place-items-center">
               <div className="mb-5 mt-48 overflow-hidden rounded-lg">
                 <Image
-                  src="/magnifying_glass_tilted_left_3d.png"
+                  src="/emojis/magnifying_glass_tilted_left_3d.png"
                   alt="magnifying_glass_tilted_left_3d"
                   width="256"
                   height="256"

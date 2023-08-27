@@ -35,7 +35,7 @@ export default function Page() {
               <div className="overflow-hidden rounded-lg">
                 <Image
                   alt=""
-                  src="/heart_on_fire_3d.png"
+                  src="/emojis/heart_on_fire_3d.png"
                   width={256}
                   height={256}
                   decoding="async"

@@ -371,15 +371,18 @@ export default function Home() {
                       </a>
                     </h3>
                     <ul className="mb-5 mt-5 list-inside list-disc gap-2 rounded-lg px-6 marker:grid lg:list-outside">
-                      <li className="text-teal-400 underline decoration-zinc-800 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10">
+                      <li className="text-teal-400 underline mb-3 decoration-zinc-800 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10">
                         <Link href="/rules">Правила сервера</Link>
+                      </li>
+                      <li className="text-teal-400 underline decoration-zinc-800 target:-mx-4 target:scroll-mt-48 target:bg-yellow-300/20 target:px-4 target:py-3 dark:text-teal-400 dark:decoration-zinc-500 dark:target:bg-yellow-300/10">
+                        <Link href="/rules/mods">Разрешенные и запрещённые моды</Link>
                       </li>
                     </ul>
                     <div className="grid">
                       <figure className="mt-8 grid place-items-center rounded-xl bg-zinc-100/50 p-4 dark:bg-zinc-800/50 md:p-6">
                         <div className="grid">
                           <Image
-                            src="/screenshot_1.png"
+                            src="/screenshots/screenshot_1.png"
                             alt="screenshot"
                             width="1920"
                             height="1080"
@@ -393,7 +396,7 @@ export default function Home() {
                       <figure className="mt-8 grid place-items-center rounded-xl bg-zinc-100/50 p-4 dark:bg-zinc-800/50 md:p-6">
                         <div className="grid">
                           <Image
-                            src="/screenshot_2.png"
+                            src="/screenshots/screenshot_2.png"
                             alt="screenshot"
                             width="1920"
                             height="1080"
@@ -407,7 +410,7 @@ export default function Home() {
                       <figure className="mt-8 grid place-items-center rounded-xl bg-zinc-100/50 p-4 dark:bg-zinc-800/50 md:p-6">
                         <div className="relative grid">
                           <Image
-                            src="/screenshot_3.png"
+                            src="/screenshots/screenshot_3.png"
                             alt="screenshot"
                             width="1920"
                             height="1080"

@@ -23,18 +23,18 @@ export default function Page() {
     return (
       <>
         <Head>
-        <title>Профиль · NekoWorlds</title>
-        <meta name="description" content="Ванильный сервер для каждого пространство где уютно и лампово" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/power.png" />
-        <meta property="og:type" content="website" />
-        <meta name="apple-mobile-web-app-title" content="NekoWorlds" />
-        <meta property="og:site_name" content="NekoWorlds" />
-        <meta property="og:title" content="Профиль" />
-        <meta property="og:description" content="Ванильный сервер для каждого пространство где уютно и лампово" />
-        <meta property="og:image" content="/og_image.png" />
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:image" content="/og_image.png" />
+          <title>Профиль · NekoWorlds</title>
+          <meta name="description" content="Ванильный сервер для каждого пространство где уютно и лампово" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="icon" href="/power.png" />
+          <meta property="og:type" content="website" />
+          <meta name="apple-mobile-web-app-title" content="NekoWorlds" />
+          <meta property="og:site_name" content="NekoWorlds" />
+          <meta property="og:title" content="Профиль" />
+          <meta property="og:description" content="Ванильный сервер для каждого пространство где уютно и лампово" />
+          <meta property="og:image" content="/og_image.png" />
+          <meta name="twitter:card" content="summary_large_image" />
+          <meta name="twitter:image" content="/og_image.png" />
         </Head>
         <main className="mb-12 mt-24">
           {/* Хеадер */}
@@ -175,7 +175,7 @@ export default function Page() {
               <div className="overflow-hidden rounded-lg">
                 <Image
                   alt=""
-                  src="/maple_leaf_3d.png"
+                  src="/emojis/maple_leaf_3d.png"
                   width={256}
                   height={256}
                   decoding="async"

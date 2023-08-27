@@ -129,7 +129,7 @@ export default function Home() {
             <div className="rounded-xl bg-blue-100/30 px-6 py-12 dark:bg-blue-900/10">
               <div className="mb-3 grid place-items-center">
                 <Image
-                  src="/open_book_3d.png"
+                  src="/emojis/open_book_3d.png"
                   alt="open_book_3d"
                   width="256"
                   height="256"
@@ -152,7 +152,7 @@ export default function Home() {
             <div className="rounded-xl bg-green-100/30 px-6 py-12 dark:bg-green-900/10">
               <div className="mb-3 grid place-items-center">
                 <Image
-                  src="/world_map_3d.png"
+                  src="/emojis/world_map_3d.png"
                   alt="world_map_3d"
                   width="256"
                   height="256"
@@ -175,7 +175,7 @@ export default function Home() {
             <div className="rounded-xl bg-red-100/30 px-6 py-12 dark:bg-red-900/10">
               <div className="mb-3 grid place-items-center">
                 <Image
-                  src="/heart_on_fire_3d.png"
+                  src="/emojis/heart_on_fire_3d.png"
                   alt="heart_on_fire_3d"
                   width="256"
                   height="256"
@@ -195,7 +195,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-  {/* <div className="mx-auto max-w-2xl px-6 pb-12">
+        {/* <div className="mx-auto max-w-2xl px-6 pb-12">
   <div
     className="grid p-5 gap-4 rounded-lg ring-1 ring-inset ring-zinc-300/50 dark:ring-zinc-300/10 bg-zinc-300/25 dark:bg-zinc-500/10"
     role="region"

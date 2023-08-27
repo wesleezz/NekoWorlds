@@ -213,20 +213,14 @@ export default function Header() {
                 className="block transition hover:opacity-90 active:scale-90"
                 href="/"
               >
-                <svg
-                  viewBox="0 0 480 480"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="h-10 w-10"
-                >
-                  <rect width="480" height="480" rx="130" fill="#134E4A"></rect>
-                  <rect
-                    width="480"
-                    height="480"
-                    rx="130"
-                    fill="#000"
-                    fill-opacity=".5"
-                  ></rect>
+              <svg
+                width="480"
+                height="480"
+                viewBox="0 0 480 480"
+                fill="none"
+                className="h-10 w-10"
+                xmlns="http://www.w3.org/2000/svg"
+              >
                   <path
                     d="M350 0H130C58.203 0 0 58.203 0 130V350C0 421.797 58.203 480 130 480H350C421.797 480 480 421.797 480 350V130C480 58.203 421.797 0 350 0Z"
                     fill="#134E4A"
@@ -237,7 +231,7 @@ export default function Header() {
                     fill-opacity="0.5"
                   />
                   <path
-                    d="M350 9H130C63.1735 9 9 63.1735 9 130V350C9 416.826 63.1735 471 130 471H350C416.826 471 471 416.826 471 350V130C471 63.1735 416.826 9 350 9Z"
+                    d="M350 11H130C63.1735 11 9 65.1735 9 132V352C9 418.826 63.1735 473 130 473H350C416.826 473 471 418.826 471 352V132C471 65.1735 416.826 11 350 11Z"
                     fill="#0A2725"
                     stroke="#134E4A"
                     stroke-width="18"
@@ -251,15 +245,64 @@ export default function Header() {
                     d="M115.5 122.5V166H100V239H115.5V270H100V342.5H115.5V372.5H130.5V388H174.5V431H231V401H249.5V431H307V388H351V372.5H364.5V344.5H380V270H364.5V256V238.5H380V209.5H364.5V123H349.5V107.5H335.5V50H321V62.5H307.5V77.5H290.5V64.5H188.5V77.5H173V64.5H160V50H144V107.5H129.5V122.5H115.5Z"
                     fill="#CDDFDE"
                   />
-                  <rect
-                    x="9"
-                    y="9"
-                    width="462"
-                    height="462"
-                    rx="121"
-                    stroke="#134E4A"
-                    stroke-width="18"
-                  ></rect>
+                  <path d="M239 136.5V156.5H260.5V136.5H239Z" fill="#FDF1F1" />
+                  <path d="M239 136.5V156.5H260.5V136.5H239Z" fill="#FFA200" />
+                  <path d="M134.5 125V146H156V125H134.5Z" fill="#FDF1F1" />
+                  <path d="M134.5 125V146H156V125H134.5Z" fill="#FFA200" />
+                  <path
+                    d="M322.5 128.5V149.5H344L343.5 128.5H322.5Z"
+                    fill="#FDF1F1"
+                  />
+                  <path
+                    d="M322.5 128.5V149.5H344L343.5 128.5H322.5Z"
+                    fill="#FFA200"
+                  />
+                  <path d="M291.5 136.5H282V147H291.5V136.5Z" fill="#FDF1F1" />
+                  <path d="M291.5 136.5H282V147H291.5V136.5Z" fill="#85C25A" />
+                  <path
+                    d="M301.5 156L301.333 149.5L301.269 147H291.5L291.75 156H301.5Z"
+                    fill="#FDF1F1"
+                  />
+                  <path
+                    d="M301.5 156L301.333 149.5L301.269 147H291.5L291.75 156H301.5Z"
+                    fill="#85C25A"
+                  />
+                  <path d="M282 147V156H291.75L291.5 147H282Z" fill="#FDF1F1" />
+                  <path d="M282 147V156H291.75L291.5 147H282Z" fill="#89C85C" />
+                  <path
+                    d="M301 136.5H291.5V147H301.269L301 136.5Z"
+                    fill="#FDF1F1"
+                  />
+                  <path
+                    d="M301 136.5H291.5V147H301.269L301 136.5Z"
+                    fill="#89C85C"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M115 125V146H134.5V165.5H156V146H177.5V125H156V104H134.5V125H115ZM134.5 125H156V146H134.5V125ZM218 136.5V146.5V156.5H239V176.5H260.5V156.5H282V156V147V136.5H260.5V115H239V136.5H218ZM239 136.5H260.5V156.5H239V136.5ZM301.269 147L301 136.5V128.5H322.5V149.5H301.333L301.269 147ZM344 149.5V170.5H322.5V149.5H344ZM343.5 128.5H365L365.5 149.5H344L343.5 128.5ZM343.5 128.5V107H322.5V128.5H343.5Z"
+                    fill="#FDF1F1"
+                  />
+                  <path
+                    d="M198.5 156.5H218V146.5H208.5L208.25 136.5H198.5V156.5Z"
+                    fill="#FDF1F1"
+                  />
+                  <path
+                    d="M198.5 156.5H218V146.5H208.5L208.25 136.5H198.5V156.5Z"
+                    fill="#85C25A"
+                  />
+                  <path
+                    d="M218 136.5H208.25L208.5 146.5H218V136.5Z"
+                    fill="#89C85C"
+                  />
+                  <path
+                    d="M198.5 136.5V125H186.5V146.5H177.5V156.5H197.5H198.5V136.5Z"
+                    fill="#89C85C"
+                  />
+                  <path
+                    d="M177.5 125V146V146.5H186.5V125H177.5Z"
+                    fill="#85C25A"
+                  />
                 </svg>
               </Link>
             </div>
@@ -618,19 +661,13 @@ export default function Header() {
               href="/"
             >
               <svg
+                width="480"
+                height="480"
                 viewBox="0 0 480 480"
                 fill="none"
-                xmlns="http://www.w3.org/2000/svg"
                 className="h-10 w-10"
+                xmlns="http://www.w3.org/2000/svg"
               >
-                <rect width="480" height="480" rx="130" fill="#134E4A"></rect>
-                <rect
-                  width="480"
-                  height="480"
-                  rx="130"
-                  fill="#000"
-                  fill-opacity=".5"
-                ></rect>
                 <path
                   d="M350 0H130C58.203 0 0 58.203 0 130V350C0 421.797 58.203 480 130 480H350C421.797 480 480 421.797 480 350V130C480 58.203 421.797 0 350 0Z"
                   fill="#134E4A"
@@ -641,7 +678,7 @@ export default function Header() {
                   fill-opacity="0.5"
                 />
                 <path
-                  d="M350 9H130C63.1735 9 9 63.1735 9 130V350C9 416.826 63.1735 471 130 471H350C416.826 471 471 416.826 471 350V130C471 63.1735 416.826 9 350 9Z"
+                  d="M350 11H130C63.1735 11 9 65.1735 9 132V352C9 418.826 63.1735 473 130 473H350C416.826 473 471 418.826 471 352V132C471 65.1735 416.826 11 350 11Z"
                   fill="#0A2725"
                   stroke="#134E4A"
                   stroke-width="18"
@@ -655,15 +692,64 @@ export default function Header() {
                   d="M115.5 122.5V166H100V239H115.5V270H100V342.5H115.5V372.5H130.5V388H174.5V431H231V401H249.5V431H307V388H351V372.5H364.5V344.5H380V270H364.5V256V238.5H380V209.5H364.5V123H349.5V107.5H335.5V50H321V62.5H307.5V77.5H290.5V64.5H188.5V77.5H173V64.5H160V50H144V107.5H129.5V122.5H115.5Z"
                   fill="#CDDFDE"
                 />
-                <rect
-                  x="9"
-                  y="9"
-                  width="462"
-                  height="462"
-                  rx="121"
-                  stroke="#134E4A"
-                  stroke-width="18"
-                ></rect>
+                <path d="M239 136.5V156.5H260.5V136.5H239Z" fill="#FDF1F1" />
+                <path d="M239 136.5V156.5H260.5V136.5H239Z" fill="#FFA200" />
+                <path d="M134.5 125V146H156V125H134.5Z" fill="#FDF1F1" />
+                <path d="M134.5 125V146H156V125H134.5Z" fill="#FFA200" />
+                <path
+                  d="M322.5 128.5V149.5H344L343.5 128.5H322.5Z"
+                  fill="#FDF1F1"
+                />
+                <path
+                  d="M322.5 128.5V149.5H344L343.5 128.5H322.5Z"
+                  fill="#FFA200"
+                />
+                <path d="M291.5 136.5H282V147H291.5V136.5Z" fill="#FDF1F1" />
+                <path d="M291.5 136.5H282V147H291.5V136.5Z" fill="#85C25A" />
+                <path
+                  d="M301.5 156L301.333 149.5L301.269 147H291.5L291.75 156H301.5Z"
+                  fill="#FDF1F1"
+                />
+                <path
+                  d="M301.5 156L301.333 149.5L301.269 147H291.5L291.75 156H301.5Z"
+                  fill="#85C25A"
+                />
+                <path d="M282 147V156H291.75L291.5 147H282Z" fill="#FDF1F1" />
+                <path d="M282 147V156H291.75L291.5 147H282Z" fill="#89C85C" />
+                <path
+                  d="M301 136.5H291.5V147H301.269L301 136.5Z"
+                  fill="#FDF1F1"
+                />
+                <path
+                  d="M301 136.5H291.5V147H301.269L301 136.5Z"
+                  fill="#89C85C"
+                />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M115 125V146H134.5V165.5H156V146H177.5V125H156V104H134.5V125H115ZM134.5 125H156V146H134.5V125ZM218 136.5V146.5V156.5H239V176.5H260.5V156.5H282V156V147V136.5H260.5V115H239V136.5H218ZM239 136.5H260.5V156.5H239V136.5ZM301.269 147L301 136.5V128.5H322.5V149.5H301.333L301.269 147ZM344 149.5V170.5H322.5V149.5H344ZM343.5 128.5H365L365.5 149.5H344L343.5 128.5ZM343.5 128.5V107H322.5V128.5H343.5Z"
+                  fill="#FDF1F1"
+                />
+                <path
+                  d="M198.5 156.5H218V146.5H208.5L208.25 136.5H198.5V156.5Z"
+                  fill="#FDF1F1"
+                />
+                <path
+                  d="M198.5 156.5H218V146.5H208.5L208.25 136.5H198.5V156.5Z"
+                  fill="#85C25A"
+                />
+                <path
+                  d="M218 136.5H208.25L208.5 146.5H218V136.5Z"
+                  fill="#89C85C"
+                />
+                <path
+                  d="M198.5 136.5V125H186.5V146.5H177.5V156.5H197.5H198.5V136.5Z"
+                  fill="#89C85C"
+                />
+                <path
+                  d="M177.5 125V146V146.5H186.5V125H177.5Z"
+                  fill="#85C25A"
+                />
               </svg>
             </Link>
           </div>

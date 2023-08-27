@@ -34,7 +34,7 @@ export default function Page() {
               <div className="grid w-96 gap-5 rounded-lg bg-zinc-50/50 p-5 ring-1 ring-inset ring-black/10 dark:bg-zinc-800/40 dark:ring-zinc-600/30">
                 <div className="text-md grid grid-flow-col items-center justify-start gap-3 font-medium">
                   <Image
-                    src="/Wesleezz69.png"
+                    src="/heads/Wesleezz69.png"
                     alt="Wesleezz69"
                     width="35"
                     height="35"
@@ -62,7 +62,7 @@ export default function Page() {
               <div className="grid w-96 gap-5 rounded-lg bg-zinc-50/50 p-5 ring-1 ring-inset ring-black/10 dark:bg-zinc-800/40 dark:ring-zinc-600/30">
                 <div className="text-md grid grid-flow-col items-center justify-start gap-3 font-medium">
                   <Image
-                    src="/Klore.png"
+                    src="/heads/Klore.png"
                     alt="Klore"
                     width="35"
                     height="35"
