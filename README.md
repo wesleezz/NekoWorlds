@@ -1,4 +1,4 @@
-<div>
+<div align="center">
 	<p>
 		<a href="https://nekocorp.gq"><img src="https://i.ibb.co/10h1Pmm/nwwnew.png" width="546" alt="NekoWorlds" /></a>
 	<p>
