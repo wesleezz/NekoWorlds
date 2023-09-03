@@ -1,6 +1,5 @@
 <div>
 	<p>
-		<a href="https://nekocorp.gq"><img src="https://svgur.com/i/wYH.svg" width="70" alt="NekoWorlds" /></a>
 		<a href="https://nekocorp.gq"><img src="https://i.ibb.co/10h1Pmm/nwwnew.png" width="546" alt="NekoWorlds" /></a>
 	<p>
 </div>
