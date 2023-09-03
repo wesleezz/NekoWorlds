@@ -32,9 +32,10 @@ jobs:
 
       - name: Install ESLint
         run: |
-          npm install -g pnpm
-          pnpm install
-          pnpm install -g eslint
+          npm i -g pnpm
+          pnpm add @pnpm/global-bin-dir
+          pnpm add -g
+          pnpm add -g eslint
 
       - name: Run ESLint
         run: npx eslint .
