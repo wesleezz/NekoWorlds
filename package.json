@@ -47,7 +47,7 @@
     "nextra": "^2.2.3",
     "nextra-theme-docs": "^2.2.3",
     "pnpm": "^8.6.8",
-    "postcss": "^8.4.21",
+    "postcss": "^8.4.31",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-i18next": "^12.3.1",
